@@ -1,0 +1,1311 @@
+NOTES: 18-06-2023
+
+Roadmap for the FullStack/Frontend Course
+    - Days of the course
+        Saturday/Sunday
+    - Timing
+        7-9pm IST
+    - Communication
+        - WhatsApp Group (official)
+            DO's
+                - sharing the notes at the end of each session
+                - sharing of all the projects/assignments
+                - discusssion related to course can be done anyone amongst you
+                - any doubt clarification...
+                - sharing the important... related to web development
+            DONT's
+                - never misuse of the contacts - privacy
+                - never share anything else unless it is related to web developement
+                    - no good morning
+                    - no good evenings
+                    - no good nights
+                    - no sharing.... / no forwards...
+    - Syllabus
+        Frontend
+            HTML, CSS, Bootstrap, JavaScript, jQuery (intro), ReactJs + Git/GitHub
+        Fullstack
+            Frontend + ExpressJs, NodeJs, MongoDB + Git/GitHub
+
+    - Assignments / Projects (Outcome of the course!!!)
+        - Assignments will be based on simple/small concepts
+            - Duration
+                - every now and then...
+        - Projects
+            - Duration
+                - Every Week! (BARE MINIMUM!)
+                    HTML - 1
+                    CSS - 4-5
+                    Bootstrap - 1-2
+                    JavaScript - (Assignments - 36, Problem Solving - 1/day => 60 days => 60 problems)
+                    ReactJs - 1-3 (CSS + Bootstrap => 5-7)
+                    NodeJs - 1-2
+                    MongoDB - 1-2
+
+                    TOTAL = 13-22 (Projects) + JS (96 Assignments)
+                        = GitHub Profile
+
+            - Capstone (End of the course!) = 1
+                - Certification!
+
+    - Fullstack?
+
+    - Drill?
+        questions?
+            - WHY?
+            - WHY YOU NEED A JOB?
+                - Passion
+                - FINANCIAL / MONEY
+                    - Survive
+                        - in what ways?
+                    - Respect!
+                - SETTLE in FUTURE
+                    - WHAT or WHEN YOU WILL SETTLE?
+                        - AT WHAT or WHEN?
+                            - Revenue?
+                                - 50cr
+                            - RICHEST PERSON IN THE WORLD?
+                                - Musk (300+ crores)
+                                - Bezoz (300+ crores)
+                                    1cr / day => 300 years!
+
+                                    --- WORKING!!!!!!!!!!!
+                                - MOM! (WOMEN!)
+                    - WHEN YOU STOP WORKING?
+                        - you will go regularly to one place!
+                            = DOCTOR!
+                - Taking care of family and society!
+            - FAITH vs TRUST!
+
+    - What quality is/are needed for a job?
+        - Primary
+            - Attitude!
+                - When a company knows if they can earn through you!
+        - Secondary
+            - Technical / Skillset
+            - Communication
+            - Mindset
+
+        - After getting a job?
+            Primary
+                - Adaptibility! - SURVIVAL OF YOUR CAREER!
+            Secondary
+                - Punctuality
+                - Perfection
+                - Stress Management
+                - Technical / Skillset
+                - Communication
+                - Mindset
+
+Assignment #1: (Soft Skills!)
+    - Next week you all are going to talk about any topic not less than 5mins and more than 10mins
+        - Cameras on!
+
+Assignment #2:
+    - Developer
+    - Programmer
+    - Coder
+        - Whether all 3 are the same or different?
+            - if same, how/why?
+            - if different, how/why?
+        - When one becomes either of the 3?
+        - How much time will it take for becoming either of the 3?
+
+Go to your WhatsApp official group
+    - Just put a message with your name!
+
+
+
+NOTES: 25-06-2023
+
+- Aamir
+    - All same
+    - Certified or Experienced
+    - 6-9 months
+    - YOU? - All 3, but specifically Developer
+- Fathima
+    - Coder
+        - using predefined
+        - 3 months
+    - Programmer
+        - also coding...
+        - create algorithms
+        - new solutions
+        - implementation, debugging
+        - 6 months
+    - Developer
+        - also programming...
+        - creating concept...
+        - 6 months - 1 year
+    - YOU? - All 3, but specifically Developer
+- Prem
+    - Coder
+        - professional using languages...
+        - 3 - 6 months (max 12 months)
+    - Programmer
+        - write, modify, test codes...
+        - 6 months - 1 year
+    - Developer
+        - develops programs..
+        - 1-2 months
+    - YOU? - All 3, but specifically Programmer
+- Sanjay
+    - Coder
+        - own writing, new software development
+        - 6 - 10 months
+    - Programmer
+        - same as coder
+        - also writes code, but use existing codes
+        - maintenance
+        - 6 - 10 months
+    - Developer
+        - design, development, testing, debugging
+        - 6 - 10 months
+    - YOU? - Developer
+- Karthika
+    - all are same
+    - 3 - 6 months
+    - YOU? - All 3
+- Raja Pandi
+    - all are same
+    - Coder
+        - basic
+        - 2-4 months
+    - Programmer
+        - software related programming
+        - 3-6 or 9 months
+    - Developer
+        - above coder and programmer
+        - 6-8 months or 1 yr
+    - YOU? - All 3, more advanced in Developer
+- Dhanush
+    - Coder
+        - basic
+        - depends...
+    - Programmer
+        - software specific programming
+        - algorithm
+        - depends...
+    - Developer
+        - identifying the needs
+        - expert in any language
+        - depends...
+    - YOU? - All 3, but specifically Developer
+- Gomathi
+    - Coder
+        - writes codes
+        - 3 - 6 months
+    - Programmer
+        - writes programs
+        - 1 yr or depends
+    - Developer
+        - bringing new features
+        - 1 yr or depends
+    - YOU? - Programmer/Developer
+- Bharath
+    - Coder
+        - familiar with syntax
+        - testing, executing
+        - 5 - 6 months
+    - Programmer
+        - logically thinking, customizing
+        - 5 - 6 months
+    - Developer
+        - fixing bugs, documentation
+        - 5 - 6 months
+    - YOU? - Developer
+- Lokesh
+    - Coder
+        - creating software
+        - designing, testing
+        - 6-8 months
+    - Programming
+        - specific programming languages
+        - 6-8 months
+    - Developer
+        - same as programmer
+        - can create complete software
+        - 6-8 months
+    - YOU? - Developer
+
+
+- Developer - Advanced => Coder -> Programmer -> TL -> PL -> PM, VP, COO
+    - Developing Ideas, Probably Providing Solutions...
+- Programmer - Intermediate => Coder -> Programmer -> TL
+    - Prepares instructions for the coders...
+        - Pseudo Code
+            - Informal Programming in the format rough work!
+            - Algorithms!
+                - Step by step procedure to complete the coding...
+                - Simple English
+            - Definition
+                - Step by step instructions in a human understandable language!
+    - Coding...
+- Coder - Starting/Entry Point => Coder
+    - YOU...
+    - Writing Codes in any language based on the requirement (project <- client)
+
+Project:
+    - Construct a Classroom!
+        - Phase 1 (Developer)
+            - Land, Planning, Approvals, Layout Design (Interior, Exterior)
+            - Raw Material acquiring, Transportation,
+            - Workers, Architects, Supervisors, Engineers
+        - Phase 2 (Programmers)
+            - Planning
+            - Design
+            - Land
+            - Funding / Design / Land Approvals
+            - Acquiring Raw Materials
+            - Transportation
+            - Workers
+        - Phase 3 (Coder)
+            - Start Construction...
+        - Phase 4 (Testing)
+        - Phase 5 (Deployment)
+        
+
+SDLC
+    - Software Development Life Cycle = 100%
+        - Analysis          = 25%   10%     = 40%
+        - Design            = 25%   20%     = 30%
+        - Implementation    = 25%   50%     = 15%
+        - Testing           = 25%   10%     = 10%
+        - Deployment        = 25%   10%     = 5%
+                                            = 100%
+
+        - Maintenance
+
+Agile
+Scrum
+
+NEXT WEEK AGENDA
+    - FullStack
+    - Technical - HTML
+
+
+
+
+NOTES: 01-07-2023
+
+Websites:
+    - Static
+    - Dynamic
+
+    - Which are all can be called as website? or when we will call a website?
+        - collection of webpages
+
+Webpage:
+    - contents are searched
+    - with data and its live with domain and IP address
+    - is a document or a resource
+
+DNS
+    - Domain Naming System
+        dinesh.com
+        dinesh.co
+        dinesh.co.in
+        dinesh.in
+        dinesh.biz
+        dinesh.info
+IP
+    - Internet Protocol
+        000.000.000.000
+Protocols
+    - http / https
+    - file
+    - ftp
+    - smtp - to send out email
+    - pop3 - to receive email
+Hosting Servers
+    - GoDaddy
+    - VSNL
+    - BlueHost
+    - HostGator
+
+Full Stack = Website
+    - frontend + backend + database
+        - what is frontend?
+        - what is backend?
+        - what is database?
+    - End-to-end application/software development
+
+
+NOTES: 02-07-2023
+
+IT (WEB)
+    - How many types of Languages?
+        - Markup
+            - Eg: Maps
+            - Placeholder!
+                - HTML
+                - XML
+                    - Rendering! aka Interperation!
+        - Scripting
+            - Client Side
+                - JavaScript (.js)
+                - TypeScript (.js)
+                - ReactJs (.js)
+                - AngularJs (.js)
+                - VueJs (.js)
+                    - Parsing!
+            - Server Side
+                - NodeJs
+                - PHP (.php)
+                - ASP (Active Server Pages) (.asp)
+                - JSP (Java Server Pages) (.jsp)
+                    - Parsing! or Compiling!
+        - Programming
+            - Java
+            - Python
+            - .Net
+            - PHP
+            - Ruby-n-Rails
+            - Native React
+            - Native Angular
+
+    - Cars?
+        SUV, Sedan, Mini, Hatchback, MUV, Limo, Convertibles, Pickups, OffRoad, Coupe
+
+    - Tim Berners Lee
+        - HTML
+        - WWW - World Wide Web
+            - Internet
+            - W3C
+                - World Wide Web Consortium
+                    - Governing Body of the Internet
+
+    - 2Mbps - 300+Mbps
+        - I have used: 32/64 kbps (year 2000...)
+            5kb - 10-15mins
+
+- Syntax
+    - Patterns!
+
+HTML
+    Syntax
+        - Tags aka Containers aka Elements
+            - Types
+                - Paired
+                    <TAGNAME> => opening tag
+                        ... content / text / data / child container ...
+                    </TAGNAME> => closing tag
+                - Unpaired (aka Self Closing)
+                    <TAGNAME> => this is not accepted as closing tag in XML
+                    or
+                    <TAGNAME /> => specifically closed, will be in XML standards
+
+Basic Coding Standards:
+    - Project / Creating a Code
+        #1: Meaningful Names
+            - Folder / File Name
+                - Never Use
+                    - Assignment1
+                    - Assignment2
+                    - Project1
+                    - Project2
+                    - Test1
+                    - Test2
+                    - Temp1
+                    - Temp2
+                - Use like very specifically explaining what the project/client is:
+                    july-online-batch-2023
+                        first-page.html
+        - Naming Conventions
+            - 6 Cases
+                - lower camel case
+                    first.html
+                    firstPage.html
+                - upper camel case
+                    First.html
+                    FirstPage.html
+                - lowercase
+                    first.html
+                    firstpage.html
+                - uppercase (CONSTANTS)
+                    FIRST.html
+                    FIRSTPAGE.html
+                - dashed case (SEO)
+                    first.html
+                    first-page.html
+                - snake case
+                    first.html
+                    first_page.html
+        #2: Folder Structure
+            - Normal Website
+                /css/styles.css
+                /images/ or /img/ or /pictures/ or /media/ ... (jpg, png, gif, svg, jfif....)
+                /js/script.js
+                *.html
+            - DONT KEEP THE STRUCTURE LIKE THIS:
+                styles.css
+                background.jpg
+                logo.png
+                font.ttf
+                script.js
+                home.html
+                index.html
+                first-page.html
+        #3: Code Indentation
+            TAB Space
+                - 1 tab space = 4 spaces
+
+Rules vs Guidelines:
+    - Both are instructions
+    - Rules are supposed to be followed which attracts penalty
+    - Guidelines are supposed to be followed but not mostly with consequences, and usually consequences are faced by themselves!
+
+Editor vs IDE:
+    Editor => Normal Text based Editor
+        - Notepad
+    IDE => Integrated Development Environment
+
+http://127.0.0.1:5500/first-page.html => local environment (http)
+|
+https://domain.com/first-page.html => server environment (http / https)
+
+file:///D:/Dinesh/Technical%20Training/july-online-batch-2023/first-page.html => file environment / protocal
+
+STEPS:
+    - Create a project folder inside File Explorer window
+    - Opened the VS Code editor
+        - Opened the Project Folder
+        - Created the .html file
+        - start type the HTML code
+        - Save the file using the File menu -> Save or CTRL + S
+    - Open the File Explorer window
+        - Navigate to the project folder
+        - Double click on the html file to open it in the browser (default)
+        or
+        - Right click on the html file -> Open With -> list of browser installed, you can pick one from the list...
+    or
+    - Open the browser itself
+        - CTRL + O
+        - Navigate to the project folder
+        - Double click on the html file to open
+    or
+    - Install LiveServer in the VS Code as extension
+        - Go to the HTML file in the VS Code
+        - In the file window, go to the right bottom corner and click on "Go Live"
+            - this will automatically open the file in the browser as a server environment
+
+
+NOTES: 08-07-2023
+
+H1 - only once it can be used in a webpage (1 single html document)
+    - SEO
+        = Search Engine Optimization
+            = google
+            = bing
+                = used to rank your website based on several factors
+
+Deprecated
+    - Marked for deletion
+
+    - Windows OS => no longer support will be provided
+        - XP, 7, 2000
+
+HTML Attributes or Properties
+    - Types
+        - Paired
+            name="value"
+        - Unpaired or Self Closing
+            name
+    
+    - Classifications
+        - Core
+            id
+            style
+            class
+            title
+        - Generic
+            - depends...
+        - Custom
+            data-<custom name>="value"
+
+Comments
+    - to hide the output in the browser
+    - used for documentation
+
+
+NOTES: 09-07-2023
+
+IMG
+    - src
+        - path of the file (image)
+            - relative - from the current context
+                images/background.jpeg
+            - absolute - NOT RECOMMENDED, NOT ACCEPTED
+                D:/Downloads/Archery-Para-ST.png
+            - physical - full path/url from the domain level
+                https://images.pexels.com/photos/531880/pexels-photo-531880.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500
+
+HTML Measurements
+    - px - pixels
+    - % - percentage
+
+Table vs Tabular Column
+    - Rows and Columns
+        - Tabular Column is equal rows and columns
+
+Gap => Spacing
+    Outer Spacing
+        - Margins (in table => cellspacing)
+    Inner Spacing
+        - Padding (in table => cellpadding)
+
+
+NOTES: 22-07-2023
+
+Web Development
+    - CRIME in Web Development
+        - SHOULD NEVER GET HORIZONTAL SCROLLBAR
+
+Cache
+    - like RAM
+
+Website
+    - home.html
+    - about.html
+    - contact.html
+    - portfolio.html
+    - product.html
+
+External Websites
+    - Facebook
+    - Google+
+    - Twitter
+    - Instagram
+
+Assignment and Project Submission
+    - will happen only through GitHub
+        - 2 Links should be generated
+            - Code Link
+                - we all can see the actual code
+                    https://github.com/srinanoo/july-batch-online-2023.git
+            - Output Link
+                - we all can see the actual output in the browser
+                    https://srinanoo.github.io/july-batch-online-2023/anchor.html
+
+CI/CD
+    = Continous Integration
+    = Continous Deployment
+
+Environment
+    - Local
+        localhost:port (IP = 127.0.0.1)
+            - http://localhost:<port>
+                - Apache (PHP)
+                    http://localhost:8080
+            - http://localhost:5500/anchor.html
+    - Server
+        - localhost will be replaced by Proper IP or Domain name
+        https://srinanoo.github.io/july-batch-online-2023/anchor.html
+    - File
+
+
+NOTES: 23-07-2023
+
+#1 Assignment for this week:
+    - Named Anchor - Part 1
+        - pick your own topic
+            - Q&A
+            - Chapter and Content
+            - Bio
+            ....
+    - Named Anchor - Part 2
+        - create 2 HTML files
+            - in the 1st file
+                - only Questions
+                - only Chapters
+                - only Bio Names
+            - in the 2nd file
+                - only answers
+                - only content
+                - only content for bio
+
+HTML Forms
+    - To Send the data from frontend to anywhere....
+        - HTTP GET
+            - is by default
+            - will send the data in the URL itself...
+            - pattern
+                ?username=dinesh&password=123456
+                ? = GET method of submission
+                    - querystring
+                        ?name1=value1&name2=value2&name3=value3
+                & = each control name/value is separated by ampersand
+            - for all non sensitive data
+            - 1024 characters
+        - HTTP POST
+            - data is sent in browser temp variable
+            - and the data will be gone immediately after the data is sent to your backend
+            - for all sensitive data
+            - upto 2gb (depends on the server allocation...)
+
+Encoding
+    - is done by the application/system
+    = can be decoded
+
+Encryption (security - 128bit, 256bit)
+    - is done by part of logic is done by application and part by human/ourselves
+    - it is not supposed to be decrypted
+
+
+#2 Assignment for this week (time frame: 2 week):
+    Forms? - 30 (least) - 170 (highest)
+        - Login
+        - Registration
+        - Signup
+        - Signin
+        - Subscription
+        - Application
+        - Admission
+        - Scholarship
+        - Membership
+        - Referral
+        - Govt Forms - Form16, 16A, Pan, Voter Id, Smart Card, Passport, Aadhaar, Driving License, Birth, Death, GST, Legal Heir, Vaccination, IT Returns, Property Registration, Marriage, PF, Divorce, Pension, Vehicle, ESI Registration, Visa, Copyrights, Trademark, Patent
+        - Feedback
+        - Verification
+        - Survey
+        - Contact
+        - Rental Agreement
+        - Claim
+        - Law - Jurisdication
+        - Correction
+        - Hospital - Admission, Operation, Pharmacy, Consent, Medical Certificate, Disability
+        - Insurance - Opening, Closing, Claim, Reimbursement, Policy
+        - School/College - TC, Examination, Hall Ticket
+        - KYC
+        - Permit
+        - Bank - Opening, Closing, Claim, Reimbursement, Demat, FD, RD, Change of Details
+        - Foreign Certificate
+        - NRI
+        - NOC
+        - Leave
+        - Retirement
+        - Travel (Bus, Train, Flight, Accommodation, Food) - Reservation, Cancellation, Refund, Pass
+        - Enquiry
+        - Police - FIR
+        - Corporate - Bonds, MoU
+        - Lease, Hire
+        - Money Laundering
+        - Complaint
+        - Declaration
+        - Inventory
+        - Nominee
+        - Consent
+        - Eligibility
+        - Waranty, Guaranty
+        - Data Collection
+        - Cinema - Booking, Cancellation
+        - Purchase, Sales
+        - Lead Capture
+        - Payment
+        - Newsletter
+        - Event
+        - Inpection
+        - Invitation
+            = 123 Forms
+
+
+NOTES: 29-07-2023
+
+Meta
+    - Meaningful information
+    - helpful for social networks (Facebook, Twitter, LinkedIn, etc)
+    - helpful for SEO (Search Engine Optimization)
+
+Compatibility vs Responsive
+    - Make the design mobile / tablet/ laptop Compatible
+    - Make the design mobile / tablet/ tablet Responsive (Response / Respond)
+
+Responsiveness in Web Development
+    - interchanging rows into columns, wherever applicable
+    - show/hide containers/content, wherever applicable
+
+
+NOTES: 30-07-2023
+
+HTML Tags:
+    Block
+        - occupies the full width of the parent container
+    Inline
+        - in the same line, occupies whatever the content size is... 
+
+    Semantic (Layout Tags) vs Non-Semantic - introduced in HTML5
+        Semantic - Meaningful
+            header
+            nav
+            section
+            article
+            main
+            aside
+            footer
+        Non-Semantic
+            div
+            span
+
+Design Layouts Types?
+    - 2 Types
+        - Fluid
+            - which will fill the entire container/space of the container
+        - Box
+            - which has defined size
+        - Box inside a Fluid
+
+Plan
+    - without plan, dont start coding...
+    - STEPS
+        - 1 - Check the design
+            - Layout (Fluid / Box / Fluid inside that we have Box)
+                - outer size will be fixed...
+            - Structure (rows / columns)
+                - sizes of the columns inside the row...
+            - Focus on your content / font / size / colors / icon / pictures....
+
+
+NOTES: 05-08-2023
+
+Website
+    - a collection of webpages
+    - when you upload any webpage online as with a domain/ip
+    Project
+        - Home
+        - About
+        - Contact
+        - Blog
+        - Products
+        - Portfolio
+Webpage
+    - a single document (HTML)
+
+    home.html 
+        - 10kb (external css) + 5kb (html) = 15kb
+        or
+        - 5kb (external css) + 1kb (internal css) + 5kb (html) = 11kb
+    about.html 
+        - 10kb (external css) + 5kb (html) = 15kb
+        or
+        - 5kb (external css) + 1kb (internal css) + 5kb (html) = 11kb
+    contact.html 
+        - 10kb (external css) + 5kb (html) = 15kb
+        or
+        - 5kb (external css) + 1kb (internal css) + 5kb (html) = 11kb
+    blog.html 
+        - 10kb (external css) + 5kb (html) = 15kb
+        or
+        - 5kb (external css) + 1kb (internal css) + 5kb (html) = 11kb
+    products.html 
+        - 10kb (external css) + 5kb (html) = 15kb
+        or
+        - 5kb (external css) + 1kb (internal css) + 5kb (html) = 11kb
+    portfolio.html 
+        - 10kb (external css) + 5kb (html) = 15kb
+        or
+        - 5kb (external css) + 1kb (internal css) + 5kb (html) = 11kb
+
+    Internal:
+        home.html - 1kb (internal css)
+        about.html
+        contact.html - 1kb (internal css)
+        blog.html - 1kb (internal css)
+        products.html - 1kb (internal css)
+        portfolio.html - 1kb (internal css)
+
+    External:
+        styles.css - 10kb
+            - home - 1kb
+            - contact - 1kb
+            - blog - 1kb
+            - products - 1kb
+            - portfolio - 1kb
+
+SPA
+    - index.html - 20kb (1 process)
+        internal css - 10kb
+        html - 10kb
+
+    - index.html - 10kb (1 process)
+    - styles.css - 10kb (1 process)
+
+
+Optimization of your code:
+    - Tools
+        - Lighthouse (we have in the browser)
+        - Online
+            - GTMetrix
+            - Google Page Insights
+
+Selectors:
+    - Universal
+        *
+    - Type
+        name of HTML tag
+    - Class
+        .
+    - Id
+        #
+    - Attribute
+        []
+
+CSS Specificity:
+    - 0 (Universal)
+        - Order
+    - 1 (Type)
+        - Next Order
+    - 10 (Class)
+        - Higher Order
+    - 11 (Type + Class)
+        p.aquaColor {}
+    - 100 (ID)
+        - Highest Order
+    - 101 (Type + ID)
+        p#orangeColor {}
+
+
+NOTES: 06-08-2023
+
+CSS
+    - Selectors
+        - Universal
+            *
+        - Type
+            Name of the HTML Tag
+        - Class
+            .
+        - ID
+            #
+        - Attribute
+            [attribute]
+            - Attitude + value
+                [attribute="value"]
+        - Descendant
+            Space in between the selectors
+        - Child
+            > between the selectors
+        - Adjacent
+            +
+        - Sibling
+            ~ => tilde or approx
+                ~1000Rs
+
+        - Type + Class
+        - Type + ID
+        - Type + Attribute
+        - Type + Attribute + Value
+
+        - Class + Attribute
+        - Class + Attribute + Value
+
+        - Descendant + Class/Id/Attribute
+
+CSS Assignment for this week:
+    https://flukeout.github.io/
+        - Selectors
+
+
+CSS Basics
+    - Measurements
+        in HTML
+            - px
+            - %
+        in CSS
+            - px
+            - %
+            - pt
+            - em - relative
+            - rem - relative root
+
+            - mm
+            - cm
+            - in
+            - pc - picas
+
+            - vw - viewport width
+            - vh - viewport height
+
+    - Colors
+        - How many basic colors we have in general?
+            Black and White
+
+        - How many colors are there in general?
+            Millions+
+                LCD
+                LED
+                HD
+                FHD
+
+        - Select the Colors in CSS:
+            - Named Colors - Basically we have only 16 named colors (for old browsers and OS)
+                Red, Green, Blue, White, Indigo....
+            - RGB
+                - value
+                    0-255 (256)
+                        - rgb(0-255, 0-255, 0-255)
+                            eg:
+                                rgb(255, 255, 255) - white
+                                rgb(0, 0, 0) - black
+                                rgb(255, 0, 0) - red
+                - percentage
+                    0-100%
+                        - rgb(0-100%, 0-100%, 0-100%)
+                            eg:
+                                rgb(100%, 100%, 100%) - white
+                                rgb(0, 0, 0) - black
+                                rgb(100%, 0, 0) - red
+            - RGBA - r => red, g => green, b => blue, a => alpha or opacity or transparency
+                - value
+                    0-255 (256)
+                        - rgba(0-255, 0-255, 0-255, 0-1)
+                            eg:
+                                rgba(255, 255, 255, 0.5) - white
+                                rgba(0, 0, 0, 0.25) - black
+                                rgba(255, 0, 0, 0.35) - red
+                - percentage
+                    0-100%
+                        - rgba(0-100%, 0-100%, 0-100%, 0-100%)
+                            eg:
+                                rgba(100%, 100%, 100%, 50%) - white
+                                rgba(0, 0, 0, 25%) - black
+                                rgba(100%, 0, 35) - red
+            - HEX Codes
+                - Ranges
+                    0-9, A-F
+                        - 6 digits
+                            #000000 (first 2 nos is for red, second 2 nos is for green, third 2 nos is for blue)
+                            #123456
+                            #abcdef
+                            #a1b2c3
+
+                            #ffffff = white
+                                or rgb(255, 255, 255)
+                            #000000 = black
+                            #ff0000 = red
+                            #00ff00 = green
+                            #0000ff = blue
+                        - 3 digits
+                            #000 = black
+            - HSL
+                - Hue, Saturation, Lightness
+                    - Hue - degree (circle)
+                        - 0-359
+                    - Saturation - Worning out (fade out)
+                        - 0-100%
+                    - Lightness - lighter to darker
+                        - 0-100%
+            - HSLA
+                - Hue, Saturation, Lightness, Alpha
+                    - Hue - degree (circle)
+                        - 0-359
+                    - Saturation - Worning out (fade out)
+                        - 0-100%
+                    - Lightness - lighter to darker
+                        - 0-100%
+                    - Alpha
+                        - 0-100%
+
+
+Web Development
+    Spacing / Gaps
+        2 Types
+            - outer
+                Margins
+                    - in HTML Tables
+                        - cellspacing
+            - inner
+                Padding
+                    - in HTML Tables
+                        - cellpadding
+
+Comments
+    - used to hide code from the output
+    - documentation
+
+Assignment:
+    Named Anchor
+        - you can pick your own topic
+            - QA
+            - Chapter - Lessons
+            - Title - Sections
+            - Bio - Sections
+
+HTML Forms:
+    - Form is submitted:
+        Data is sent:
+            2 ways:
+                - HTTP GET
+                    if you see a question mark in the URL, like the following pattern
+                        ?txtFirstName=dinesh&txtLastName=123456
+                            - querystring
+                - HTTP POST
+                    if you can get to see the Payload alone in the Browser's Developer Console / Tools Window in the Network tab...
+                        - this method can be used for sending sensitive information...
+
+Project / Assignment:
+    Code Link:
+        https://github.com/srinanoo/july-batch-online-2023-html.git (used for reviewing your code)
+
+    Output Link:
+        https://srinanoo.github.io/july-batch-online-2023-html/sample.html (used for reviewing/checking output of the code)
+
+HTML
+    - Table
+        2 templates
+    - Named Anchor
+    - Forms
+
+HTML Tags
+    Block
+        - which occupies the entire row of the parent container
+    Inline
+        - in the same line, the container size depends on the content size... multiple inline containers can be shown next to each other.
+
+    Semantic
+        - which is Meaningful
+    Non-semantic
+        - which is not Meaningful
+            div, span
+
+    in HTML5 the following are the Semantic tags (or layout tags) added:
+        header - this is a website header
+        nav - this is menu navigation for the website
+        section - this is a section for the website
+        article - this is the content part of the section
+        main - this is the main content area of the website
+        aside - this is the sidebar (left or right) of the website
+        footer - this is the footer (bottom) of the website
+
+Website
+    - home.html
+    - about.html
+    - portfolio.html
+    - blog.html
+    - product.html
+
+Specificity
+    0 - Universal
+    1 - Type
+    10 - Class
+        11 - Type+Class (1+10)
+    100 - Id
+        101 - Type+ID (1+100)
+
+
+NOTES: 19-08-2023
+
+CSS Assignment #2:
+    - Research and Come up with your explanation
+        - Properties Usage
+            em
+            rem
+
+            initial
+            inherit
+
+Font File Formats
+    .ttf - true type font
+    .otf - open type font
+    .eot - embedded open type font
+    .woff - web open file format
+    .svg - scalar vector graphic file format
+
+
+NOTES: 20-08-2023
+
+CSS
+    Box Model
+        - margin
+        - border
+        - padding
+        - actual content
+
+
+NOTES: 26-08-2023
+
+Flex
+    display: flex
+
+    flex-wrap
+        nowrap (default)
+        wrap
+        wrap-reverse
+
+    flex-direction
+        row (default)
+        row-reverse
+        column
+        column-reverse
+
+    flex-flow
+        flex-wrap + flex-direction
+        eg:
+            flex-flow: wrap row-reverse;
+
+    justify-content
+        left or flex-start or start (default)
+        center
+        right or flex-end or end
+        space-between
+        space-around
+        space-evenly
+
+    align-items
+        stretch (default)
+        flex-start or start
+        center
+        flex-end or end
+        baseline
+
+    align-content
+        stretch (default)
+        flex-start or start
+        center
+        flex-end or end
+        space-between
+        space-around
+        space-evenly
+
+
+NOTES: 27-08-2023
+
+CSS Layout
+    - 2 Types
+        - Fluid
+        - Box
+    - 3rd Type
+        - Fluid
+            -> Box
+
+TAG Sequence
+    <TAGNAME> => opening tag
+        ::before => "prepend" in JavaScript
+        ... content / data / text / child containers ...
+        ::after => "append" in JavaScript
+    </TAGNAME> => closing tag
+
+This week's template to convert using Flex:
+https://srinanoo.github.io/templates/templates/ispace.png
+
+
+NOTES: 02-09-2023
+
+CSS Media Query
+    - Steps for Decision
+        - Visibility
+            - Whether we (user) will be able to see the Picture and/or Content properly without zooming in.
+        - Screen Size
+            - Range
+                - Guided Ranges
+                    576px - Mobile Screens
+                    768px - Tablet / Tab Screens
+                    992px - Laptop
+                    1200px - Desktop
+                    1400px - Large Desktop
+                - Custom Ranges
+                    500px - Mobile Screens
+                    800px - Tablet / Tab Screens
+                    1000px - Laptop
+                    1100px - Desktop
+                    1200 / 1400px - Large Desktop
+        - Breakpoints
+            xs - Extra Small Screens
+            sm - Small Screens
+            md - Medium Screens
+            lg - Large Screens
+            xl - Extra Large Screens
+            xxl - Double Extra Large Screens
+        - Screen Size = Breakpoints
+            < 576px = xs (1 - 575.98px)
+            > 576px = sm (> 576)
+            > 768px = md (> 768)
+            > 992px = lg (> 992)
+            > 1200px = xl (> 1200)
+            > 1400px = xxl (> 1400 .... 2560px)
+
+                <576px (1 - 576)
+                <768px (1 - 768)
+                <992px (1 - 992)
+                <1200px (1 - 1200)
+                <1400px (1 - 1400)
+                    - Scaling Down
+                        - Desktop / Laptop
+                        - Tablet
+                        - Mobile
+
+                >576px 
+                >768px
+                >992px
+                >1200px
+                >1400px
+                    - Scaling Up
+                        - Mobile
+                        - Tablet
+                        - Desktop / Laptop
+        - Range Calculation
+            < => max-width
+            > => min-width
+            between => min-width and max-width
+
+    - Syntax
+        @media only screen and (max-width: 576px) {
+            /* only those CSS definition with properties that will have to be changed in the specific device */
+        }
+        or
+        @media (max-width: 576px) {
+            ...
+        }
+
+
+NOTES: 03-09-2023
+
+CSS Positioning
+    - Static
+    - Relative
+    - Absolute
+    - Fixed
+    - Sticky
+
+Spacing
+    - margin
+    - padding
+
+Direction
+    - top
+    - right
+    - bottom
+    - left
+
+This week's template to convert using Flex and Grid with Responsiveness:
+https://srinanoo.github.io/templates/templates/flomic-abele.png
+
+Task to Understand Positioning:
+    #1:
+        Parent Container set to "static" position
+            -> all children (at least 4 - 5) containers set to "relative" position
+                -> try to use "spacing" + "direction" property and see what happens to the container
+                -> try to use only "direction" property and see what happens to the container
+    #2:
+        Parent Container set to "relative" position
+            -> all children (at least 4 - 5) containers set to "static" position
+                -> try to use "spacing" + "direction" property and see what happens to the container
+                -> try to use only "direction" property and see what happens to the container
+    #3:
+        Parent Container set to "relative" position
+            -> all children (at least 4 - 5) containers set to "relative" position
+                -> try to use "spacing" + "direction" property and see what happens to the container
+                -> try to use only "direction" property and see what happens to the container
+    #4:
+        Parent Container set to "static" position
+            -> all children (at least 4 - 5) containers set to "absolute" position
+                -> try to use "spacing" + "direction" property and see what happens to the container
+                -> try to use only "direction" property and see what happens to the container
+    #5:
+        Parent Container set to "absolute" position
+            -> all children (at least 4 - 5) containers set to "static" position
+                -> try to use "spacing" + "direction" property and see what happens to the container
+                -> try to use only "direction" property and see what happens to the container
+    #6:
+        Parent Container set to "absolute" position
+            -> all children (at least 4 - 5) containers set to "absolute" position
+                -> try to use "spacing" + "direction" property and see what happens to the container
+                -> try to use only "direction" property and see what happens to the container

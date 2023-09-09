@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+        * {
+            box-sizing: border-box;
+        }
+        body {
+            margin: 0;
+        }
+        img {
+            max-width: 100%;
+        }
+        .row1 {
+            background-color: red;
+        }
+        .row1, .row2, .row3, .row4, .row5 {
+            display: flex;
+            flex-wrap: wrap;
+            margin-bottom: 20px;
+        }
+        .row1 > div {
+            width: 16.66666666%;
+            padding: 5px;
+        }
+
+        .row2 {
+            background-color: yellow;
+        }
+        .row2 > div {
+            width: 25%;
+            padding: 5px;
+        }
+
+        .row3 {
+            background-color: green;
+        }
+        .row3 > div {
+            width: 33.33333333%;
+            padding: 5px;
+        }
+
+        .row4 {
+            background-color: pink;
+        }
+        .row4 > div {
+            width: 50%;
+            padding: 5px;
+        }
+
+        .row5 {
+            background-color: purple;
+        }
+        .row5 > div {
+            padding: 5px;
+        }
+
+        @media (max-width: 1400px) {
+        }
+
+        @media (max-width: 1200px) {
+        }
+
+        @media (max-width: 992px) {
+        }
+
+        @media (max-width: 768px) { /* 1px - 768px - Mobile Landscape & Tablet Portrait */
+            .row1 > div, .row2 > div {
+                width: 50%;
+            }
+        }
+
+        @media (max-width: 576px) { /* 1px - 576px - Mobile Portrait */
+            .row1 > div, .row2 > div, .row3 > div, .row4 > div {
+                width: 100%;
+            }
+        }
+    </style>
+</head>
+<body>
+
+    <div class="row1">
+        <div>
+            <img src="images/background.jpeg" alt="">
+            <p>Content goes here...</p>
+        </div>
+        <div>
+            <img src="images/background.jpeg" alt="">
+            <p>Content goes here...</p>
+        </div>
+        <div>
+            <img src="images/background.jpeg" alt="">
+            <p>Content goes here...</p>
+        </div>
+        <div>
+            <img src="images/background.jpeg" alt="">
+            <p>Content goes here...</p>
+        </div>
+        <div>
+            <img src="images/background.jpeg" alt="">
+            <p>Content goes here...</p>
+        </div>
+        <div>
+            <img src="images/background.jpeg" alt="">
+            <p>Content goes here...</p>
+        </div>
+    </div>
+
+    <div class="row2">
+        <div>
+            <img src="images/background.jpeg" alt="">
+            <p>Content goes here...</p>
+        </div>
+        <div>
+            <img src="images/background.jpeg" alt="">
+            <p>Content goes here...</p>
+        </div>
+        <div>
+            <img src="images/background.jpeg" alt="">
+            <p>Content goes here...</p>
+        </div>
+        <div>
+            <img src="images/background.jpeg" alt="">
+            <p>Content goes here...</p>
+        </div>
+    </div>
+
+    <div class="row3">
+        <div>
+            <img src="images/background.jpeg" alt="">
+            <p>Content goes here...</p>
+        </div>
+        <div>
+            <img src="images/background.jpeg" alt="">
+            <p>Content goes here...</p>
+        </div>
+        <div>
+            <img src="images/background.jpeg" alt="">
+            <p>Content goes here...</p>
+        </div>
+    </div>
+
+    <div class="row4">
+        <div>
+            <img src="images/background.jpeg" alt="">
+            <p>Content goes here...</p>
+        </div>
+        <div>
+            <img src="images/background.jpeg" alt="">
+            <p>Content goes here...</p>
+        </div>
+    </div>
+
+    <div class="row5">
+        <div>
+            <img src="images/background.jpeg" alt="">
+            <p>Content goes here...</p>
+        </div>
+    </div>
+    
+</body>
+</html>

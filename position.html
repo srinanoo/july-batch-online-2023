@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+        * {
+            box-sizing: border-box;
+        }
+        body {
+            margin: 0;
+        }
+        img {
+            max-width: 100%;
+        }
+        /* div {
+            width: 150px;
+            height: 75px;
+            position: absolute;
+        }
+        .div1 {
+            background-color: red;
+        }
+        .div2 {
+            background-color: green;
+        }
+        .div3 {
+            background-color: blue;
+        }
+        .div4 {
+            background-color: aqua;
+        } */
+
+        /* ul.menu {
+            list-style: none;
+            padding: 0;
+        }
+        ul.menu li {
+            display: inline-block;
+            background-color: yellow;
+            padding: 5px 10px;
+        }
+
+        .submenu {
+            position: absolute;
+            background-color: aqua;
+            padding: 5px;
+            margin-left: -10px;
+            margin-top: 5px;
+            display: none;
+        }
+        ul.menu li:hover .submenu {
+            display: block;
+        }
+
+        .box {
+            width: 200px;
+            border: solid;
+        }
+        .close {
+            position: absolute;
+            margin-left: 190px;
+            margin-top: -10px;
+        }
+
+        .box1 {
+            width: 150px;
+            height: 150px;
+            border: solid;
+        }
+        .close1 {
+            position: absolute;
+            margin-top: 60px;
+            margin-left: 60px;
+        }
+
+        .flipbox {
+            width: 150px;
+            height: 150px;
+            border: solid;
+        }
+        .flipbox p {
+            margin: 0;
+            position: absolute;
+            width: 148px;
+        }
+        .bg {
+            position: absolute;
+            width: 148px;
+        }
+        .flipbox:hover img {
+            z-index: -1;
+        } */
+
+        .row {
+            background-color: yellow;
+        }
+        .leftCol {
+            background-color: aqua;
+            width: 30%;
+            position: fixed;
+            height: 100vh;
+        }
+        .rightCol {
+            background-color: antiquewhite;
+            width: 70%;
+            margin-left: 30%;
+        }
+        .arrow {
+            width: 30px;
+            position: fixed;
+            right: 10px;
+            bottom: 10px;
+        }
+        .sticky {
+            background-color: red;
+            position: sticky;
+            top: 0;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- <div class="div1">Div Container 1</div>
+    <div class="div2">Div Container 2</div>
+    <div class="div3">Div Container 3</div>
+    <div class="div4">Div Container 4</div> -->
+
+    <!-- <nav>
+        <ul class="menu">
+            <li>Menu 1</li>
+            <li>Menu 2</li>
+            <li>Menu 3
+                <div class="submenu">
+                    <div>Sub Menu 1</div>
+                    <div>Sub Menu 2</div>
+                    <div>Sub Menu 3</div>
+                    <div>Sub Menu 4</div>
+                    <div>Sub Menu 5</div>
+                </div>
+            </li>
+            <li>Menu 4</li>
+            <li>Menu 5</li>
+        </ul>
+    </nav>
+
+    <div class="box">
+        <img src="images/close-1.png" alt="" class="close">
+        <p>Some content goes here...</p>
+    </div>
+
+    <br><br>
+
+    <div class="box1">
+        <img src="images/close-1.png" alt="" class="close1">
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+    </div> -->
+
+    <!-- <div class="flipbox">
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+        <img src="images/background.jpeg" alt="" class="bg">
+    </div> -->
+
+    <a href="#top"><img src="images/arrow2.png" alt="" class="arrow"></a>
+    <div class="row" id="top">
+        <div class="leftCol">
+            <div>
+                <img src="images/profile.png">
+            </div>
+            <nav>
+                <ul>
+                    <li>Menu 1</li>
+                    <li>Menu 1</li>
+                    <li>Menu 1</li>
+                    <li>Menu 1</li>
+                    <li>Menu 1</li>
+                </ul>
+            </nav>
+        </div>
+        <div class="rightCol">
+            <div>First Top Row</div>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Deserunt ea odio tempore at maxime unde soluta aliquam deleniti nobis itaque rem voluptates, natus dolorum sequi perspiciatis, pariatur nisi perferendis ipsam!</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Deserunt ea odio tempore at maxime unde soluta aliquam deleniti nobis itaque rem voluptates, natus dolorum sequi perspiciatis, pariatur nisi perferendis ipsam!</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Deserunt ea odio tempore at maxime unde soluta aliquam deleniti nobis itaque rem voluptates, natus dolorum sequi perspiciatis, pariatur nisi perferendis ipsam!</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Deserunt ea odio tempore at maxime unde soluta aliquam deleniti nobis itaque rem voluptates, natus dolorum sequi perspiciatis, pariatur nisi perferendis ipsam!</p>
+            <p class="sticky">Lorem ipsum dolor sit amet consectetur adipisicing elit. Deserunt ea odio tempore at maxime unde soluta aliquam deleniti nobis itaque rem voluptates, natus dolorum sequi perspiciatis, pariatur nisi perferendis ipsam!</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Deserunt ea odio tempore at maxime unde soluta aliquam deleniti nobis itaque rem voluptates, natus dolorum sequi perspiciatis, pariatur nisi perferendis ipsam!</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Deserunt ea odio tempore at maxime unde soluta aliquam deleniti nobis itaque rem voluptates, natus dolorum sequi perspiciatis, pariatur nisi perferendis ipsam!</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Deserunt ea odio tempore at maxime unde soluta aliquam deleniti nobis itaque rem voluptates, natus dolorum sequi perspiciatis, pariatur nisi perferendis ipsam!</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Deserunt ea odio tempore at maxime unde soluta aliquam deleniti nobis itaque rem voluptates, natus dolorum sequi perspiciatis, pariatur nisi perferendis ipsam!</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Deserunt ea odio tempore at maxime unde soluta aliquam deleniti nobis itaque rem voluptates, natus dolorum sequi perspiciatis, pariatur nisi perferendis ipsam!</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Deserunt ea odio tempore at maxime unde soluta aliquam deleniti nobis itaque rem voluptates, natus dolorum sequi perspiciatis, pariatur nisi perferendis ipsam!</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Deserunt ea odio tempore at maxime unde soluta aliquam deleniti nobis itaque rem voluptates, natus dolorum sequi perspiciatis, pariatur nisi perferendis ipsam!</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Deserunt ea odio tempore at maxime unde soluta aliquam deleniti nobis itaque rem voluptates, natus dolorum sequi perspiciatis, pariatur nisi perferendis ipsam!</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Deserunt ea odio tempore at maxime unde soluta aliquam deleniti nobis itaque rem voluptates, natus dolorum sequi perspiciatis, pariatur nisi perferendis ipsam!</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Deserunt ea odio tempore at maxime unde soluta aliquam deleniti nobis itaque rem voluptates, natus dolorum sequi perspiciatis, pariatur nisi perferendis ipsam!</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Deserunt ea odio tempore at maxime unde soluta aliquam deleniti nobis itaque rem voluptates, natus dolorum sequi perspiciatis, pariatur nisi perferendis ipsam!</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Deserunt ea odio tempore at maxime unde soluta aliquam deleniti nobis itaque rem voluptates, natus dolorum sequi perspiciatis, pariatur nisi perferendis ipsam!</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Deserunt ea odio tempore at maxime unde soluta aliquam deleniti nobis itaque rem voluptates, natus dolorum sequi perspiciatis, pariatur nisi perferendis ipsam!</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Deserunt ea odio tempore at maxime unde soluta aliquam deleniti nobis itaque rem voluptates, natus dolorum sequi perspiciatis, pariatur nisi perferendis ipsam!</p>
+        </div>
+    </div>
+    
+</body>
+</html>

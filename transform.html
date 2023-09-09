@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        img {
+            max-width: 100%;
+        }
+        body {
+            padding: 50px;
+        }
+        .rotate, .skew, .scale, .translate {
+            width: 100px;
+            height: 100px;
+            background-color: red;
+            margin-bottom: 20px;
+            /* transition: transform 3s; */
+            transition-property: width;
+            transition-duration: 3s;
+            transition-delay: 3s;
+        }
+        .rotate:hover {
+            /* transform: rotate(-45deg); */
+            width: 200px;
+        }
+
+        .skew:hover {
+            transform: skew(20deg, 20deg);
+        }
+
+        .scale img, .translate img {
+            transition: transform 3s;
+        }
+
+        .scale img:hover {
+            transform: scale(1.5, 1.5);
+        }
+
+        .translate img:hover {
+            transform: translate(20px, 20px);
+        }
+    </style>
+</head>
+<body>
+
+    <div class="rotate">
+        Div Container
+    </div>
+
+    <div class="skew">
+        Div Container
+    </div>
+
+    <div class="scale">
+        <img src="images/background.jpeg">
+    </div>
+
+    <div class="translate">
+        <img src="images/background.jpeg">
+    </div>
+    
+</body>
+</html>

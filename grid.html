@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+        * {
+            box-sizing: border-box;
+        }
+        img {
+            max-width: 100%;
+        }
+        .flexRow {
+            background-color: purple;
+            display: flex;
+            flex-wrap: wrap;
+            margin-bottom: 30px;
+        }
+        .flexRow > div {
+            background-color: pink;
+            /* margin: 5px; */
+            width: 33.3333333%;
+        }
+
+        .gridRow {
+            background-color: purple;
+            display: grid;
+            grid-template-columns: auto auto auto auto;
+        }
+        .gridRow > div {
+            background-color: pink;
+            margin: 5px;
+        }
+
+        .flex {
+            background-image: url('images/background3.jpg');
+            color: white;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="flex">
+        <div class="flexCol">
+            <h2>I'm Dinesh</h2>
+            <p>Some content goes here...</p>
+            <p><button>Click Here</button></p>
+        </div>
+    </div>
+
+    <!-- <div class="flexRow">
+        <div>Flex Column 1</div>
+        <div>Flex Column 2</div>
+        <div>Flex Column 3</div>
+        <div>Flex Column 1</div>
+        <div>Flex Column 2</div>
+        <div>Flex Column 3</div>
+    </div>
+
+    <div class="gridRow">
+        <div>Column 1</div>
+        <div>Column 2</div>
+        <div>Column 3</div>
+        <div>Column 4</div>
+        <div>Column 5</div>
+        <div>Column 6</div>
+        <div>Column 7</div>
+        <div>Column 8</div>
+        <div>Column 9</div>
+        <div>Column 10</div>
+        <div>Column 11</div>
+        <div>Column 12</div>
+        <div>Column 13</div>
+        <div>Column 14</div>
+        <div>Column 15</div>
+        <div>Column 16</div>
+    </div> -->
+    
+</body>
+</html>
