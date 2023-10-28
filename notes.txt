@@ -1309,3 +1309,229 @@ Task to Understand Positioning:
             -> all children (at least 4 - 5) containers set to "absolute" position
                 -> try to use "spacing" + "direction" property and see what happens to the container
                 -> try to use only "direction" property and see what happens to the container
+
+
+NOTES: 10-09-2023
+
+Bootstrap
+    - SASS -> Compiler that is written in Ruby
+        SCSS -> file format Sassy Cascading Style Sheet
+            https://sass-lang.com/documentation/
+
+    - Tagline
+        - One Framework, Every Device
+
+    - Moto / Approach
+        - Mobile First
+            Mobile
+            Tablet
+            Laptop / Desktop
+
+CDN - Content Delivery Network
+
+Minifying
+    - removing unwanted spaces and code indentations
+        - in
+            HTML
+            CSS
+            JS
+
+
+Bootstrap Basics
+    - Spacing
+        margin
+            in CSS
+                margin-top
+                margin-right
+                margin-bottom
+                margin-left
+                margin
+            in Bootstrap
+                mt
+                me => end (from v5+) - mr (in v4 or v3) right
+                mb
+                ms => start (from v5+) - ml (in v4 or v3) left
+                m
+                mx = me + ms
+                my = mt + mb
+        padding
+            in CSS
+                padding-top
+                padding-right
+                padding-bottom
+                padding-left
+                padding
+            in Bootstrap
+                pt
+                pe => end (from v5+) - pr (in v4 or v3) right
+                pb
+                ps => start (from v5+) - pl (in v4 or v3) left
+                p
+                px = pe + ps
+                py = pt + pb
+
+    - Spacers (1rem => 16px)
+        0                               = 0
+        1 = x 0.25rem                   = 4px
+        2 = x 0.5rem                    = 8px
+        3 = x 1rem                      = 16px
+        4 = x 1.5rem                    = 24px
+        5 = x 3rem                      = 48px
+
+    - Sizing
+        width
+            in CSS
+                width
+            in Bootstrap
+                w
+                    w-0
+                    w-25
+                    w-50
+                    w-75
+                    w-100
+        height
+            in CSS
+                height
+            in Bootstrap
+                h
+                    h-0
+                    h-25
+                    h-50
+                    h-75
+                    h-100
+
+        - Spacer
+            0
+            25
+            50
+            75
+            100
+
+    - Contextual Classes
+        primary = blue
+        secondary = gray
+        info = light blue
+        success = green
+        danger = red
+        warning = yellow / orange
+        light = half white / light gray
+        dark = dark gray
+
+        background
+            bg-primary
+            bg-secondary
+            bg-info
+            bg-success
+            bg-danger
+            bg-warning
+            bg-light
+            bg-dark
+
+        text
+            text-primary
+            text-secondary
+            text-info
+            text-success
+            text-danger
+            text-warning
+            text-light
+            text-dark
+
+
+NOTES: 24-09-2023
+
+When a code is processed:
+    - Rendering...
+        - HTML through the Browser
+        - CSS
+    - Parsing... (run time)
+        - JavaScript through the Browser
+    - Compiling... (during compiling or development time)
+        - Java
+        - ReactJs
+        - NodeJs
+
+Case Sensitive
+    - ASCII
+        American Standard Code for Information Interchange
+            - a numeric value is assigned for every keys in the keyboard
+                A = 65 => Binary
+                a = 97
+
+Data Types
+    - Basic
+        - Alphabets
+        - Numbers
+
+    - Programmatical
+        - Primitive Data Types
+            - char or character
+            - str or string
+            - int or integer or shortint or bigint
+            - float or double
+            - boolean (true or false -> 1 or 0)
+        - Non Primitives Data Types
+            - array
+            - object
+            - class
+            - interface
+
+        - Java
+            int i = 0
+            int i = "Dinesh" (not accepted...)
+
+            int i; // Declaration
+            i = 10 // Definition or Assignment
+
+            Integer i
+            str name = "Dinesh"
+            String name = "Dinesh"
+
+    - Creation of a variable, the process involved:
+        - Declaration
+        - Definition (Define or Assignment)
+
+    - Creation of a variable in JavaScript
+        - var
+            var v = 10
+        - let
+            let l = "Dinesh"
+        - const
+            const c = true
+
+    - Data Types in JavaScript
+        number (whole, decimals, floats)
+        string (char, string)
+        boolean (true or false)
+        object (object and array)
+        undefined
+        null
+        NaN
+        Symbol
+
+ES in JavaScript
+    ES6 - popular...
+
+
+NOTES: 08-10-2023
+
+BODMAS
+    - Brackets
+    - Of
+    - Division
+    - Multiplication
+    - Addition
+    - Subtraction
+
+    **
+    !
+
+
+Objects
+    - it can have "properties" and "feature/functionality"
+
+    Number
+    String
+    Math
+    Array
+    Object

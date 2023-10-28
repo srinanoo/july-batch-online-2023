@@ -1,0 +1,430 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+        /*
+        * {
+            box-sizing: border-box;
+        }
+        */
+        .div {
+            margin: 0;
+            padding: 0;
+            color: #fff;
+            background-color: aliceblue;
+        }
+    </style>
+</head>
+<body>
+    
+    <h1>JavaScript</h1>
+
+    <p>
+
+    </p>
+
+    <P>
+
+    </P>
+
+    <noscript>JS is disabled. Please enabled to execute the JS code.</noscript>
+    <script src="js/scripts.js"></script> <!-- External JavaScript -->
+    <script>
+        // JS Code goes here...
+            // Internal JavaScript...
+
+        /*
+            The following code sequence is used to display the output in the browser in 2 different...
+        */
+        // document.write("This is going to come from JavaScript to HTML Body in the browser...");
+        // console.log("This is going to come from JavaScript but through Console.log....");
+
+        // var a; // Declaration
+        // a = 10; // Definition or Assignment
+
+        // var a = 10; // Declaration + Assignment
+
+        // var v = 10.516511;
+        // console.log(v);
+        // console.log(typeof v);
+        
+        // let l = "D";
+        // console.log(l);
+        // console.log(typeof l);
+
+        // const c = true;
+        // console.log(c);
+        // console.log(typeof c);
+
+        // var a = 10;
+        // console.log(a);
+        // console.log(typeof a); // number...
+
+        // a = "Dinesh"; // Re-Assignment
+        // console.log(a);
+        // console.log(typeof a); // string...
+
+        // a = false;
+        // console.log(a);
+        // console.log(typeof a); // boolean
+
+        // let a = 10; // global scope
+        // console.log(a, " - 1st Line of a variable");
+        
+        // function testFunc() {
+        //     console.log(a, " - a variable inside the function");
+
+        //     let b = 20; // local scope
+        //     console.log(b, " - 1st line of b variable");
+
+        //     c = 30; // local ... "hoisting / hoisted -> upgraded..."
+        //     console.log(c, " - 1st line of c variable"); // local...
+        // }
+        // testFunc();
+
+        // // console.log(b, " - b variable outside the function");
+
+        // var c;
+        // console.log(c, " - c variable outside the function"); // global...
+
+        // var a = 10; // Memory Address #1 = 10
+        // console.log(a, " - 1st line of a variable");
+
+        // a = "Dinesh"; // Re-Assigned ... #1 = "Dinesh"
+        // console.log(a, " - 2nd line of a variable");
+
+        // var a = true; // Re-Declaration with Assignment ... #2 = "Dinesh"
+        // console.log(a, " - 3rd line of a variable after redeclaration");
+
+
+        // let b = 20;
+        // console.log(b, " - 1st line of b variable");
+
+        // b = "Dinesh";
+        // console.log(b, " - 2nd line of b variable");
+
+        // let b = false; // will not allow to re-declare
+        // console.log(b, " - 3rd line of b variable");
+
+        // for(var i = 0; i < 10; i++) {
+        //     console.log(i);
+        // }
+        // console.log(i, " - i after the loop");
+
+        // for(let j = 0; j < 10; j++) { // block
+        //     console.log(j);
+        // }
+        // console.log(j, " - j after the loop");
+
+        // const c = false;
+        // console.log(c, " - c variable");
+
+        // c = "Dinesh"; // not possible....
+        // console.log(c, " - c variable - 2nd line");
+
+        // const c = "Dinesh"; // not possible....
+
+        // var username1
+        // var Username1
+        // var username2
+        // var user_name
+        // var userName
+        // var UserName
+        // var _username
+
+        // var user-name
+        // var USERNAME
+        // var 1username
+
+        // let a;
+        // let b = 20;
+
+        // console.time(); // timer will start...
+        // if(a > b) { // 10 > 20
+        //     console.log("A is greater than B");
+        // } else {
+        //     console.log("A is not greater than B");
+        //     console.log("A is not greater than B");
+        //     console.log("A is not greater than B");
+        //     console.log("A is not greater than B");
+        //     console.log("A is not greater than B");
+        // }
+        // console.timeEnd(); /// timer will stop...
+
+        // console.time();
+        // (a > b) 
+        //     ? 
+        //         console.log("A is greater than B")
+        //     : 
+        //         (
+        //             console.log("A is not greater than B - 1"), 
+        //             console.log("A is not greater than B - 2"), 
+        //             console.log("A is not greater than B - 3")
+        //         );
+        // console.timeEnd();
+
+        // let a = 10; // number
+        // let str = "this is a test string"; // string
+
+        // let arr = ["a", "b", "c", "d", "e"]; // array of string data | static array
+        // console.log(arr);
+        // console.log(arr[0]);
+        // arr[2] = "Caption";
+
+        // let arr1 = []; // dynamic array
+        // arr1[0] = "a";
+        // arr1[1] = "b";
+        // arr1[2] = "c";
+        // arr1[3] = "d";
+        // arr1[6] = "e";
+        // arr1[1] = "Dinesh";
+        // console.log(arr1);
+
+        // let a = [1, 2, 3, 4, 5];
+        // console.log(a);
+        // console.log(a.length);
+        // let count = a.push("a", "b", "c");
+        // console.log(count);
+        // console.log(a);
+        // console.log(a.length);
+
+        let results = "total=100||||correct=88||||560=D||$||561=B||$||562=B||$||563=D||$||564=B||$||565=C||$||566=C||$||567=C||$||568=D||$||569=B||$||570=C||$||571=C||$||572=B||$||573=D||$||574=A||$||575=C||$||576=C||$||577=A||$||578=D||$||579=A||$||580=B||$||581=D||$||582=C||$||583=C||$||584=B||$||585=D||$||586=C||$||587=D||$||588=B||$||589=A||$||590=D||$||591=D||$||592=B||$||593=A||$||594=A||$||595=C||$||596=D||$||597=C||$||598=D||$||599=B||$||600=A||$||601=C||$||602=B||$||603=A||$||604=B||$||605=D||$||606=C||$||607=D||$||608=A||$||609=D||$||610=D||$||611=B||$||612=B||$||613=C||$||614=C||$||615=C||$||616=B||$||617=B||$||618=C||$||619=A||$||620=B||$||621=C||$||622=D||$||623=D||$||624=B||$||625=B||$||626=A||$||627=C||$||628=A||$||629=D||$||630=C||$||631=D||$||632=C||$||633=D||$||634=A||$||635=B||$||636=B||$||637=D||$||638=A||$||639=A||$||640=C||$||641=C||$||642=C||$||643=C||$||644=B||$||645=B||$||646=C||$||647=B||$||648=B||$||649=D||$||650=B||$||651=A||$||652=B||$||653=C||$||654=B||$||655=B||$||656=A||$||657=A||$||658=C||$||659=A||$||";
+
+        // let resultsArr = results.split("||||");
+        // console.log(resultsArr);
+
+        // let qaArr = resultsArr[2].split("||$||");
+        // console.log(qaArr);
+
+        // let qaStr = qaArr.join("&&||&&||&&");
+        // console.log(qaStr);
+
+        // let namesOfPeople = ["Dinesh", "Mansour", "Amir", "Gayathri", "Karthika"];
+        // let namesOfPeopleStr = namesOfPeople.toString();
+        // console.log(namesOfPeopleStr);
+
+        // let address = [
+        //     "1, 1st Street, Road, City, State, Country", 
+        //     "2, 2nd Street, Road, City, State, Country", 
+        //     "3, 3rd Street, Road, City, State, Country", 
+        //     "4, 4th Street, Road, City, State, Country", 
+        //     "5, 5th Street, Road, City, State, Country"
+        // ];
+        // let addressStr = address.join("|#&|");
+        // console.log(addressStr);
+
+        // let userArr = [1000, "Dinesh", true];
+        // console.log(userArr[0]);
+        // console.log(userArr[1]);
+        // console.log(userArr[2]);
+
+        // // JavaScript Object variable
+        // let obj = {
+        //     "id": 1000,
+        //     name: "Dinesh",
+        //     active: true
+        // }
+        // let strid = "id";
+        // let strname = "name";
+        // console.log(obj);
+        // console.log(obj.id);
+        // console.log(obj.name);
+        // console.log(obj.active);
+        // console.log(obj[strid]);
+        // console.log(obj[strname]);
+        // console.log(obj["active"]);
+
+        // // JSON format -> JavaScript Object Notation
+        // let objJSON = {
+        //     "id": 1000,
+        //     "name": "Dinesh",
+        //     "active": true
+        // }
+
+        // let userArr = ["Dinesh", 1000, true];
+        // console.log(userArr[0]);
+
+        // let obj = {
+        //     name: "Dinesh",
+        //     "id": 1000,
+        //     active: true
+        // }
+        // console.log(obj.id);
+        // console.log(obj.name);
+        // console.log(obj.active);
+
+        // console.log(Object.keys(obj));
+        // console.log(Object.values(obj));
+        // console.log(Object.entries(obj));
+
+
+        // let userData = [
+        //     {
+        //         id: 1, name: "User 1", active: true,
+        //     }, 
+        //     {
+        //         id: 2, name: "User 2", active: false,
+        //     }, 
+        //     {
+        //         id: 3, name: "User 3", active: true,
+        //     }, 
+        //     {
+        //         id: 4, name: "User 4", active: false,
+        //     }, 
+        //     {
+        //         id: 5, name: "User 5", active: true,
+        //     }
+        // ];
+        // console.log(userData);
+        // console.log(userData[0].name);
+        // console.log(userData[1].id);
+        // console.log(userData[2].active);
+
+        // let a = 10;
+        // let b = 20;
+        // if(a < b) {
+        //     console.log("A is lesser than B");
+        // } else if(a > b) {
+        //     console.log("A is greater than B");
+        // } else if(a === b) {
+        //     console.log("A is equal to B");
+        // } else { // default block
+        //     console.log("A is neither lesser than nor greater than B, and not equal to B");
+        // }
+
+        // if(a < b) {
+        //     if(a > 0) {
+        //         console.log("A is greater than B and greater than 0");
+        //     } else {
+        //         console.log("A is greater than B, but not greater than 0");
+        //     }
+        // }
+
+        // if(a < b && a > 0) {
+        //     console.log("A is greater than B and greater than 0");
+        // } else {
+        //     console.log("A is greater than B, but not greater than 0");
+        // }
+
+        // if(a < b || a > 0) {
+        //     console.log("A is greater than B and/or greater than 0");
+        // } else {
+        //     console.log("A is greater than B, but not greater than 0");
+        // }
+
+        // let color = "red";
+        // console.time();
+        // switch(color) {
+        //     case "green":
+        //         console.log("Color is green");
+        //         break;
+        //     case "yellow":
+        //         console.log("Color is yellow");
+        //         break;
+        //     case "blue":
+        //         console.log("Color is blue");
+        //         break;
+        //     case "red":
+        //         console.log("Color is red");
+        //         break;
+        //     default:
+        //         console.log("Color is not defined as per our choice");
+        // }
+        // console.timeEnd();
+
+        // console.time();
+        // if(color === "green") {
+        //     console.log("Color is green");
+        // } else if(color === "yellow") {
+        //     console.log("Color is yellow");
+        // } else if(color === "blue") {
+        //     console.log("Color is blue");
+        // } else if(color === "red") {
+        //     console.log("Color is red");
+        // } else {
+        //     console.log("Color is not defined as per our choice");
+        // }
+        // console.timeEnd();
+
+        // let a = 10;
+        // let b = 20;
+
+        // if(a < b) {
+        //     console.log("A is lesser than B");
+        // }
+        
+        // while(a < b) { // 10<20 11<20 12<20 ... 20<20
+        //     console.log("A is greater than B"); //
+        //     a++; // a = a + 1; || 11 12
+        // }
+
+        // let a = 0; // 0
+        // while(a < 10) { // 0<10 1<10 2<10 3<10 4<10 5<10 6<10 7<10 8<10 9<10 10<10
+        //     console.log(a); // 0123456789
+        //     a++; // 12345678910
+        // }
+
+        // let b = 10;
+        // while(b > 0) {
+        //     console.log(b);
+        //     b--;
+        // }
+
+        // Increment (if condition is in ascending order; from lowest to highest value)
+            // ++
+                // Post Increment
+                    // <var>++
+                        // a++ => a = a + 1
+                // Pre Increment
+                    // ++<var>
+                        // ++a => a + 1 = a
+        // Decrement (if condition is in descending order; from highest to lowest value)
+            // --
+                // Post Decrement
+                    // <var>--
+                // Pre Decrement
+                    // --<var>
+         
+        // let i = 0; // 0
+        // while(i < 5) { // 0<5 1<5 2<5 3<5 4<5 5<5
+        //     console.log(i); // 01234
+        //     console.log(i++); // 01234 | 12345
+        // }
+
+        // let i = 0; // 0
+        // while(i < 5) { // 0<5 1<5 2<5 3<5 4<5 5<5
+        //     console.log(i); // 01234
+        //     console.log(++i); // 12345 | 12345
+        // }
+    
+        // let a = 0; // 0
+        // while(a < 10) { // 0<10 1<10 2<10 3<10 4<10 5<10 6<10 7<10 8<10 9<10 10<10
+        //     console.log(a); // 0123456789
+        //     a++; // 12345678910
+        //     console.log(a); // 12345678910
+        // }
+
+        // let a = 0; // 0
+        // while(a < 10) { // 0<5 1<5 2<5 3<5 4<5 5<5
+        //     console.log(a); // 0123456789
+        //     ++a; // 12345678910
+        //     console.log(a);
+        // }
+
+        // let a = 0; // 0
+        // while(a < 10) { // 0<10 1<10
+        //     console.log(a++); // 0 | 1
+        // }
+
+        let a = 0; // 0
+        while(a < 10) { // 0<10 1<10 2<10 3<10 4<10 5<10 6<10 7<10 8<10 9<10 10<10
+            console.log(++a); // 12345678910
+        }
+
+    </script>
+</body>
+</html>
