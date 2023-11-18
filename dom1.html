@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+    <!-- <a href="">1</a>
+    <a href="">1</a>
+    <a href="">1</a>
+    <a href="">1</a> -->
+
+    <div id="div1" class="div" name="div1">
+        Div 1 Content goes here...
+    </div>
+    <div id="div2" class="div" name="div1">
+        Div 2 <strong style="color:red;">Content</strong> goes here...
+        <p>Span <span>Data</span></p>
+    </div>
+    <p><button onclick="processData();">Click</button></p>
+
+    <script>
+        function processData() {
+            // Old Method
+                // document.div[<index>].innerText
+                // document.div[<index>].innerHTML
+                    // console.log(document.links.length);
+                // let div1 = document.div;
+                // console.log(div1);
+
+            // Traditional
+                // document.getElementById("<id attribute value>").innerText
+                // document.getElementById("<id attribute value>").innerHTML
+                let div1 = document.getElementById("div1").innerHTML;
+                // console.log(div1);
+
+                let div2 = document.getElementById("div2").innerText;
+                console.log(div2);
+
+                let div21 = document.getElementById("div2").innerHTML;
+                console.log(div21);
+        }
+    </script>
+    
+</body>
+</html>

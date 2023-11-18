@@ -533,6 +533,433 @@
         //     }
         // }
 
+        // let userData = [
+        //     {
+        //         id: 1,
+        //         name: "Dinesh",
+        //         active: true,
+        //         subjects: ["Html", "CSS", "JavaScript"],
+        //         marks: {
+        //             "html": 30,
+        //             "css": 20,
+        //             "js": 10
+        //         }
+        //     },
+        //     {
+        //         id: 2,
+        //         name: "Dinesh",
+        //         active: true,
+        //         subjects: ["Html", "CSS", "JavaScript"],
+        //         marks: {
+        //             "html": 30,
+        //             "css": 20,
+        //             "js": 10
+        //         }
+        //     },
+        //     {
+        //         id: 3,
+        //         name: "Dinesh",
+        //         active: true,
+        //         subjects: ["Html", "CSS", "JavaScript"],
+        //         marks: {
+        //             "html": 30,
+        //             "css": 20,
+        //             "js": 10
+        //         }
+        //     },
+        //     {
+        //         id: 4,
+        //         name: "Dinesh",
+        //         active: true,
+        //         subjects: ["Html", "CSS", "JavaScript"],
+        //         marks: {
+        //             "html": 30,
+        //             "css": 20,
+        //             "js": 10
+        //         }
+        //     },
+        //     {
+        //         id: 5,
+        //         name: "Dinesh",
+        //         active: true,
+        //         subjects: ["Html", "CSS", "JavaScript"],
+        //         marks: {
+        //             "html": 30,
+        //             "css": 20,
+        //             "js": 10
+        //         }
+        //     }
+        // ];
+        // id = 1
+        // name = "Dinesh"
+        // active = true
+        // subjects = HTML / CSS / JavaScript
+        // marks = html = 30 / css = 20 / js = 10
+
+        // id = 2
+        // name = "Dinesh"
+        // active = true
+        // subjects = HTML / CSS / JavaScript
+        // marks = html = 30 / css = 20 / js = 10
+
+        // for (let a = 1; a <= 2; a++) { // 1 ; 1<=2 2<=2 3<=2 ; 23
+        //     for (let b = 1; b <= 2; b++) { // 1 ; 1<=2 2<=2 3<=2 ; 23
+        //         console.log(a, " - ", b); // 1-1 1-2 2-1 2-2
+        //     }
+        // }
+
+        // let rows = 5;
+        // let cols = 5;
+        // let i = 0;
+        
+        // while(i < rows) { // 0<5 1<5 2<5 3<5 4<5 5<5
+        //     console.log("Row - ", i); // 01234
+
+        //     let j = 0; // 0
+        //     while(j < cols) { // 0<5 1<5 2<5 3<5 4<5 5<5
+        //         console.log("Cols - ", j); // 01234
+        //         j++; // 12345
+        //     }
+        //     i++; // 12345
+        // }
+
+        // let rows = 3;
+        // let cols = 1;
+        // for(let i = 1; i <= rows; i++) {
+        //     console.log('Row - ', i);
+        //     for(let j = 1; j <= cols; j++) {
+        //         console.log('Col - ', j);
+        //     }
+        // }
+
+        // for (a = 0, b = 1; a <= 3; b += a, console.log(b), a++);
+        //   0, 1        ; 0 <= 3; 1+0 = 1, 1, 1
+        //               ; 1 <= 3; 1+1 = 2, 2, 2
+        //               ; 2 <= 3; 2+2 = 4, 4, 3
+        //               ; 3 <= 3; 4+3 = 7, 7, 4
+        //               ; 4 <= 3
+
+        // for (a = 0, b = 1; a <= 3; a++) {
+        //     b += a; // b = b + a
+        //     console.log(b); 
+        // }
+
+        // let arr = [1000, "Dinesh", true];
+
+        // let obj = {
+        //     id: 1,
+        //     name: "Dinesh",
+        //     active: true,
+        // }
+        // console.log(obj.id);
+        // console.log(obj.name);
+        // console.log(obj.active);
+
+        // console.log(obj["id"]);
+        // console.log(obj["name"]);
+        // console.log(obj["active"]);
+
+        // for(let temp in obj) {
+        //     console.log(obj[temp]);
+        // }
+
+
+        // let ageOfPeople = [10, 25, 5, 45, 36, 21, 16, 12, 47, 69, 85, 12, 11, 9];
+        // console.log("Count : ", ageOfPeople.length);
+        // let counter = 0;
+        // for(let i = 0; i < ageOfPeople.length; i++) {
+        //     if(counter === 5) break;
+        //     if(ageOfPeople[i] >= 18) {
+        //         console.log(ageOfPeople[i]);
+        //         counter++;
+        //     }
+        //     console.log("i : ", i);
+        // }
+
+        // let a = 1;
+        // while (a < 10) { // 1<10 2<10
+        //     if (a == 2) // 1==2 2==2
+        //         break; // 
+        //     console.log(a); // 1
+        //     a++; // 2
+        // }
+
+        // let a = 1;
+        // while (a < 10) { // 1<10 2<10 3<10 4<10 5<10 6<10 7<10 8<10 9<10 10<10
+        //     a++; // 2345678910
+        //     if (a == 2) // 2==2 3==2 4==2 5==2 6==2 7==2 8==2 9==2 10==2
+        //         continue;
+        //     console.log(a); // 345678910
+        // }
+
+        // // function definition line
+        // function testFunc() {
+        //     console.log("This is my function");
+        // }
+        // testFunc(); // function invoking or calling line
+
+        // function testFunc1() {
+        //     return {id: 1, name: "Dinesh"}; // returning a "value" (string, number, boolean, array, object)
+        // }
+        // let result = testFunc1();
+        // console.log(result);
+
+        // function testFunc2() {
+        //     let addition = 10 + 10;
+        //     return addition; // returning a variable (which will have the value)
+        // }
+        // let result1 = testFunc2();
+        // console.log(result1);
+
+        // function testFunc3() {
+        //     return 10 + 10 * 20; // returning an output of an expression
+        // }
+        // let result2 = testFunc3();
+        // console.log(result2);
+
+        // function addition(n1, n2, n3, n4) { // n1 -> parameter
+        //     console.log(n1 + n2 + n3 + n4);
+        // }
+        // addition(10, 20, 30, 40); // 10 -> argument
+        // addition(20, 30, 40, 50);
+
+        // function addition(n1, n2, n3=0, n4=0) { // n1 -> parameter | 0 -> default value for the parameter
+        //     // console.log(typeof n1, typeof n2);
+        //     // if(typeof n1 === "undefined")
+        //     //     console.log("Please enter a number for first number.");
+        //     // else if(typeof n2 === "undefined")
+        //     //     console.log("Please enter a number for second number.");
+        //     // else
+
+        //     console.log(n1 + n2 + n3 + n4);
+        // }
+        // // addition(10, 20); // 10 -> argument
+        // // addition(20, 20, 20); // 20+undefined
+        // // addition(10, 10, 10, 10);
+        
+        // function addition(n1=0, n2=0, n3=0, n4=0) { // n1 -> parameter | 0 -> default value for the parameter
+        //     console.log(n4, typeof n4);
+        //     if(typeof n1 !== "number")
+        //         console.log("Please enter a number for first number.");
+        //     else if(typeof n2 !== "number")
+        //         console.log("Please enter a number for second number.");
+        //     else if(typeof n3 !== "number")
+        //         console.log("Please enter a number for third number.");
+        //     else if(typeof n4 !== "number")
+        //         console.log("Please enter a number for fourth number.");
+        //     else
+        //         console.log(n1 + n2 + n3 + n4); // most expected result
+        // }
+        // addition(10, 20);
+        // addition(20, 20, 20); // undefined=>number datatype | NaN=>number datatype
+    
+        // // Regular function
+        // function testFunc(n1) {
+        //     console.log("Regular Function! " + n1);
+        // }
+        // testFunc(10);
+        
+        // // Anonymous function
+        // let a = 10;
+        // let s = "this is a string";
+        // let b = true;
+        // let arr = ["a", "b", "c"];
+        // let obj = {};
+        // let testFunc1 = function(n1) {
+        //     console.log("Anonymous Function!" + n1);
+        // }
+        // console.log(a);
+        // testFunc1(20);
+
+        // let obj = {
+        //     id: 1,
+        //     name: "Dinesh",
+        //     active: true,
+        //     subjects: ["html", "css"],
+        //     marks: {
+        //         "html": 30,
+        //         "css": 30
+        //     },
+        //     getDetails: function() {
+        //         return this.id + ", " + this.name + ", " + this.active;
+        //     }
+        // }
+        // console.log(obj.id, obj.name, obj.active);
+        // console.log(obj.marks);
+        // console.log(obj.subjects);
+        // console.log(obj.getDetails());
+
+        // function addition() {
+        // }
+        // function multiplication() {
+        // }
+        // function subtraction() {
+        // }
+        // function division() {
+        // }
+
+        // let calculator = {
+        //     addition: function(n1, n2) {
+        //         return n1 + n2;
+        //     },
+        //     subtraction: function(n1, n2) {
+        //         return n1 - n2;
+        //     },
+        //     multiplication: function(n1, n2) {
+        //         return n1 * n2;
+        //     },
+        //     division: function(n1, n2) {
+        //         return n1 / n2;
+        //     },
+        //     modulus: function(n1, n2) {
+        //         return n1 % n2;
+        //     }
+        // }
+        // calculator.addition(1, 2);
+        // calculator.division(1, 2);
+
+        // // General Function
+        // testFunction();
+        // function testFunction() {
+        //     console.log("General Function");
+        // }
+
+        // // Anonymous Function
+        // let testFunction1 = function() {
+        //     console.log("Anonymous Function");
+        // }
+        // testFunction1();
+
+        // // Arrow Function
+        // let testFunction2 = () => {
+        //     console.log("Arrow Function");
+        // }
+        // testFunction2();
+
+        // let testFunction3 = (n1, n2=0) => {
+        //     return "Arrow Function .. " + n1 + " " + n2;
+        // }
+        // let result = testFunction3(1, 2);
+        // console.log(result);
+        // // testFunction3(1);
+
+        // let testFunction4 = (n1, n2=0) => "Arrow Function .. " + n1 + " " + n2;
+        // console.log(testFunction4(5,5));
+
+        // let testFunction5 = n1 => "Arrow Function .. " + n1;
+        // console.log(testFunction5(5));
+
+        // let arr = [1000, "Dinesh", true];
+        // console.log("for loop.....");
+        // for(let i=0; i<arr.length; i++) {
+        //     console.log(arr[i]);
+        // }
+
+        // console.log("for...in ........");
+        // for(let i in arr) {
+        //     console.log(arr[i]);
+        // }
+
+        // console.log("for...of ........");
+        // for(let i of arr) {
+        //     // console.log(i);
+        //     processArray(i);
+        // }
+
+        // console.log("forEach method ........");
+        // arr.forEach(processArray); // 1000, "Dinesh", true
+        // function processArray(v) { // v=1000 v="Dinesh" v=true
+        //     console.log(v); // 1000 | "Dinesh" | true
+        // }
+
+        // console.log("forEach method ... arrow function ....");
+        // let processArray1 = (v) => {
+        //     console.log(v);
+        // }
+        // arr.forEach(processArray1);
+
+        // console.log("forEach method ... arrow function inline ....");
+        // arr.forEach((v, i, a) => {
+        //     console.log(v);
+        // });
+
+        // console.log("forEach method ... arrow function inline in 1 line ....");
+        // arr.forEach(v => console.log(v));
+        
+
+        // let arr = [1, 2, 3, 4, 5];
+        // console.log("using for loop...");
+        // let result = [];
+        // for(let i = 0; i < arr.length; i++) {
+        //     result.push(Math.sqrt(arr[i]));
+        // }
+        // console.log(result);
+
+        // console.log("using map method...");
+        // let result1 = arr.map(v => Math.sqrt(v));
+        // console.log(result1);
+        
+
+        // let ageOfPeople = [10, 25, 5, 45, 36, 21, 16, 12, 47, 69, 85, 12, 11, 9];
+        // console.log("using for loop...");
+        // let result = [];
+        // for(let i = 0; i < ageOfPeople.length; i++) {
+        //     if(ageOfPeople[i] <= 18)
+        //         result.push(ageOfPeople[i])
+        // }
+        // console.log(result);
+
+        // console.log("using filter method...");
+        // let result1 = ageOfPeople.filter(v => v <= 18);
+        // console.log(result1);
+
+
+        // let sumOfNumbers = [1, 2, 3, 4, 5, 6, 7, 8, 9, 1, 2, 3, 4, 5];
+        // let sum = 0;
+        // for(let i = 0; i < sumOfNumbers.length; i++) {
+        //     sum += sumOfNumbers[i];
+        // }
+        // console.log(sum);
+        // console.log(sum/sumOfNumbers.length);
+
+        // let sum1 = sumOfNumbers.reduce((pv, v) => pv + v)/sumOfNumbers.length; 
+        //     // pv=0, v=1 => 0+1 = 1
+        //     // pv=1, v=2 => 1+2 = 3
+        //     // pv=3, v=3 => 3+3 = 6
+        //     // pv=6, v=4 => 6+4 = 10
+        //     // pv=10, v=5 => 10+5 = 15
+        //     // pv=15, v=6 => 15+6 = 21
+        //     // pv=21, v=7 => 21+7 = 28
+        //     // pv=28, v=8 => 28+8 = 36
+        //     // pv=36, v=9 => 36+9 = 45
+        // console.log(sum1);
+        // // console.log(sum1/sumOfNumbers.length);
+
+
+        // let ageOfPeople = [10, 25, 5, 45, 36, 21, 16, 12, 47, 69, 85, 12, 11, 9];
+        // let ageOfPeople = [45, 36, 21, 47, 69, 85];
+        // let flag = false;
+        // for(let i = 0; i < ageOfPeople.length; i++) {
+        //     if(ageOfPeople[i] < 18) {
+        //         flag = true;
+        //         break;
+        //     }
+        // }
+        // if(flag) 
+        //     console.log("Not all people are greater than 18yrs");
+        // else
+        //     console.log("All people are greater than 18yrs");
+
+        // let flag1 = ageOfPeople.every(v => v >= 18);
+        // if(flag1) 
+        //     console.log("All people are greater than 18yrs");
+        // else
+        //     console.log("Not all people are greater than 18yrs");
+
+        // let flag2 = ageOfPeople.some(v => v < 18);
+        // console.log(flag2);
+
+
         let userData = [
             {
                 id: 1,
@@ -596,73 +1023,54 @@
         // subjects = HTML / CSS / JavaScript
         // marks = html = 30 / css = 20 / js = 10
 
-        // id = 2
-        // name = "Dinesh"
-        // active = true
-        // subjects = HTML / CSS / JavaScript
-        // marks = html = 30 / css = 20 / js = 10
+        // Venkatesh...
+            // let count=userData.length;
+            // console.log(count);
+            // console.log(userData);
 
-        // for (let a = 1; a <= 2; a++) { // 1 ; 1<=2 2<=2 3<=2 ; 23
-        //     for (let b = 1; b <= 2; b++) { // 1 ; 1<=2 2<=2 3<=2 ; 23
-        //         console.log(a, " - ", b); // 1-1 1-2 2-1 2-2
-        //     }
-        // }
+            // for(let i=0;i<count;i++){
+            //     console.log("id = ",userData[i].id);
+            //     console.log("name = ",userData[i].name);
+            //     console.log("active = ",userData[i].active);
 
-        // let rows = 5;
-        // let cols = 5;
-        // let i = 0;
-        
-        // while(i < rows) { // 0<5 1<5 2<5 3<5 4<5 5<5
-        //     console.log("Row - ", i); // 01234
+            //     let allsub=userData[i].subjects;
+            //     let lenalsub=allsub.length;
+            //     console.log("subjects = ",allsub.join(" / "));
+                
+            //     let indivmarks=userData[i].marks;
+            //     let indivkeys=Object.keys(indivmarks);
+            //     let indivmark=Object.values(indivmarks);
+            //     let arrMarks1=indivkeys.map((e,i)=>e+" : "+indivmark[i]);
+            //     console.log("Marks = ",arrMarks1.join(" / "));
+            // }
 
-        //     let j = 0; // 0
-        //     while(j < cols) { // 0<5 1<5 2<5 3<5 4<5 5<5
-        //         console.log("Cols - ", j); // 01234
-        //         j++; // 12345
-        //     }
-        //     i++; // 12345
-        // }
-
-        // let rows = 3;
-        // let cols = 1;
-        // for(let i = 1; i <= rows; i++) {
-        //     console.log('Row - ', i);
-        //     for(let j = 1; j <= cols; j++) {
-        //         console.log('Col - ', j);
-        //     }
-        // }
-
-        // for (a = 0, b = 1; a <= 3; b += a, console.log(b), a++);
-        //   0, 1        ; 0 <= 3; 1+0 = 1, 1, 1
-        //               ; 1 <= 3; 1+1 = 2, 2, 2
-        //               ; 2 <= 3; 2+2 = 4, 4, 3
-        //               ; 3 <= 3; 4+3 = 7, 7, 4
-        //               ; 4 <= 3
-
-        // for (a = 0, b = 1; a <= 3; a++) {
-        //     b += a; // b = b + a
-        //     console.log(b); 
-        // }
-
-        let arr = [1000, "Dinesh", true];
-
-        let obj = {
-            id: 1,
-            name: "Dinesh",
-            active: true,
-        }
-        console.log(obj.id);
-        console.log(obj.name);
-        console.log(obj.active);
-
-        console.log(obj["id"]);
-        console.log(obj["name"]);
-        console.log(obj["active"]);
-
-        for(let temp in obj) {
-            console.log(obj[temp]);
-        }
-
+        // Sudha...
+            if(userData.length!=0){
+                for(let i=0;i<userData.length;i++){
+                    console.log(userData[i]);
+                    for(let temp in userData[i]){
+                        if (Array.isArray(userData[i][temp])===true){
+                            let z = [];
+                            for(let j=0;j<userData[i][temp].length;j++){
+                                // console.log(temp, "=", userData[i][temp][j],"/");
+                                z.push(userData[i][temp][j]);
+                            }
+                            console.log(temp, " = ", z.join(" / "));
+                        } else if(typeof userData[i][temp]==="object" && !Array.isArray(userData[i][temp])){
+                            let z = [];
+                            for(let temp1 in userData[i][temp]){
+                                // console.log(temp1,"=",userData[i][temp][temp1]);
+                                z.push(temp1+"="+userData[i][temp][temp1]);
+                            }
+                            console.log(temp, "=", z.join(" / "));
+                        } else {
+                            console.log(temp,"=",userData[i][temp]);
+                        }
+                    }
+                }
+            } else {
+                console.log("There is no User Data is available...");
+            }
 
     </script>
 </body>
