@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+        * {
+            box-sizing: border-box;
+        }
+        #universities {
+            display: flex;
+            flex-wrap: wrap;
+        }
+        #universities > div {
+            width: 25%;
+            padding: 8px;
+            background-color: antiquewhite;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- <div id="catFact"></div>
+    <button id="btnCatFact">Show Cat Fact</button> -->
+
+    <input type="text" placeholder="Enter Country Name:" id="txtCountry">
+    <button id="btnShowUniversities">Show Universities</button>
+
+    <div id="universities"></div>
+
+    <script>
+        document.querySelector("#btnShowUniversities").addEventListener("click", () => {
+            let country = document.querySelector("#txtCountry").value;
+            console.log(country);
+            fetch('http://universities.hipolabs.com/search?country='+country)
+                .then(res => res.json())
+                .then(data => {
+                    let output = "";
+                    data.forEach(v => {
+                        output += '<div><p>Name: ' + v.name + '</p>';
+                        output += '<p>Website: ' + v.web_pages[0] + '</p></div>';
+                    });
+                    document.querySelector("#universities").innerHTML = output;
+                });
+        });
+
+        // Promises...
+        // Async and Await...
+        // document.querySelector("#btnCatFact").addEventListener("click", () => {
+        //     console.log(1);
+            
+        //     // promise
+        //     fetch('https://catfact.ninja/fact')// first will be executed and it will wait for the response
+        //         .then((res) => res.json()) // once the response comes... converts the response object into js object (JSON representation)
+        //         .then((data) => { // we get the data in JS Object format...
+        //             console.log(2);
+        //             // console.log(data.fact); /// use the JS object which can be an array of objects or object, and use it as "index" or "key name"
+            
+        //             document.querySelector("#catFact").innerHTML = data.fact;
+        //         });
+            
+        //     console.log(3);
+        // });
+    </script>
+    
+</body>
+</html>

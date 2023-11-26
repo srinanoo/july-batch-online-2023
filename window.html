@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+    <!-- <div>
+        <input type="text" placeholder="Username:" id="txtUsername">
+        <button id="btnAlert">Alert Button</button>
+    </div>
+    <br>
+    <div>
+        <button id="btnDelete">Delete Button</button>
+    </div>
+    <br>
+    <div>
+        <button id="btnPrompt">Prompt Window</button>
+    </div> -->
+
+    <div id="time"></div>
+    <button id="btnStart">Start</button>
+    <button id="btnStop">Stop</button>
+
+    <script>
+        let timer;
+
+        document.querySelector("#btnStart").addEventListener("click", () => { 
+            timer = setInterval(() => {
+                let dt = new Date();
+                // console.log(dt.toLocaleTimeString());
+                document.querySelector("#time").innerHTML = dt.toLocaleTimeString();
+            }, 1000);
+        });
+
+        document.querySelector("#btnStop").addEventListener("click", () => {
+            clearInterval(timer);
+        });
+
+        // document.querySelector("#btnAlert").addEventListener("click", () => {
+        //     let username = document.querySelector("#txtUsername").value;
+        //     if(username === "") {
+        //         window.alert("Please enter your username");
+        //     }
+        //     else {
+        //         console.log(username);
+        //     }
+        // });
+
+        // document.querySelector("#btnDelete").addEventListener("click", () => {
+        //     let conf = window.confirm("Are you sure you want to delete?");
+        //     console.log(conf);
+        //     if(conf) {
+        //         console.log("Ok, we are going to delete...");
+        //     } else {
+        //         console.log("Nothing will be done....");
+        //     }
+        // });
+
+        // document.querySelector("#btnPrompt").addEventListener("click", () => {
+        //     let username = window.prompt("Enter your username:");
+        //     console.log(username);
+        // });
+    </script>
+    
+</body>
+</html>

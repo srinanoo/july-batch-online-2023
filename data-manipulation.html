@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+    <button id="btnAdd">Add User</button>
+    <button id="btnEdit">Edit User</button>
+    <button id="btnList">List Users</button>
+    <button id="btnDelete">Delete User</button>
+
+    <div id="results"></div>
+
+    <script>
+        document.querySelector("#btnAdd").addEventListener("click", () => {
+            let usersData = localStorage.getItem("users");
+            if(usersData !== null) {
+                usersData = JSON.parse(usersData);
+            } else usersData = [];
+            let newUser = {
+                id: 4,
+                name: "Sivam",
+                age: 22,
+                dob: "01/01/2023",
+                active: false
+            }
+            usersData.push(newUser);
+            console.log(usersData);
+
+            localStorage.setItem("users", JSON.stringify(usersData));
+        });
+
+        document.querySelector("#btnEdit").addEventListener("click", () => {
+            console.log("Edit User clicked");
+        });
+
+        document.querySelector("#btnList").addEventListener("click", () => {
+            let usersData = localStorage.getItem("users");
+            if(usersData !== null) {
+                usersData = JSON.parse(usersData);
+            } else document.querySelector("#results").innerHTML = "No User found!";
+            let output = "";
+            usersData.forEach(v => {
+                output += '<div>';
+                output += '<p>' + v.id + '</p>';
+                output += '<p>' + v.name + '</p>';
+                output += '<p>' + v.age + '</p>';
+                output += '</div>';
+            });
+            document.querySelector("#results").innerHTML = output;
+        });
+    
+        document.querySelector("#btnDelete").addEventListener("click", () => {
+            let usersData = localStorage.getItem("users");
+            if(usersData !== null) {
+                usersData = JSON.parse(usersData);
+            } else document.querySelector("#results").innerHTML = "No User found!";
+
+            usersData.splice(1, 1);
+            console.log(usersData);
+
+            localStorage.setItem("users", JSON.stringify(usersData));
+        });
+    </script>
+    
+</body>
+</html>

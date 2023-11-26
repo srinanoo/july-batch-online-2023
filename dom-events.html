@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        #div1 {
+            border: solid;
+            width: 200px;
+            height: 200px;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- <textarea id="taMessage" cols="30" rows="10"></textarea>
+    <div id="count"></div> -->
+
+    <div id="div1">
+        Div Container
+    </div>
+    <div id="coordinates"></div>
+
+    <script>
+        // Events
+            // Keyboard events
+                // keydown
+                // keypress
+                // keyup
+            // document.querySelector("#taMessage").addEventListener("keyup", () => {
+            //     let message = document.querySelector("#taMessage").value;
+            //     document.querySelector("#count").innerHTML = message.length;
+            // });
+            
+            // Mouse events
+                // mouseover
+                // document.querySelector("#div1").addEventListener("mouseenter", () => {
+                //     let div1 = document.querySelector("#div1");
+                //     div1.setAttribute("style", "background-color: red; color: white;");
+                // });
+                // mouseout
+                // document.querySelector("#div1").addEventListener("mouseleave", () => {
+                //     let div1 = document.querySelector("#div1");
+                //     div1.setAttribute("style", "background-color: white; color: black;");
+                // });
+                // mouseenter
+                // mouseleave
+                // mousemove
+                document.querySelector("#div1").addEventListener("mousemove", (event) => {
+                    let x = event.clientX;
+                    let y = event.clientY;
+                    document.querySelector("#coordinates").innerHTML = "X : " + x + ", Y : " + y;
+                });
+                // click
+                // dblclick
+
+            // Other events
+                // change
+                // focus
+                // blur
+                // load
+    </script>
+    
+</body>
+</html>

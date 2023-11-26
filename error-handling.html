@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+    <div id="results"></div>
+
+    <script>
+        try {
+            let b = 10;
+            console.log(b);
+            let a = 1000;
+            document.getElementById("results").innerHTML = a;
+        } catch(err) {
+            // console.log(err);
+            console.log(err.message);
+            // alert("Something went wrong. Please try again!");
+            document.getElementById("results").innerHTML = "Something went wrong. Please try again"
+        } finally {
+            b = 0;
+        }
+        console.log(b);
+    </script>
+    
+</body>
+</html>

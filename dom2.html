@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .colorRed {
+            color: red;
+        }
+    </style>
+</head>
+<body id="body">
+
+    <div id="div1">
+        <h4 id="h4">Heading 4 Container</h4>
+        <p id="p1" data-interval="1000">Paragraph 1 Container</p>
+        <div id="div2" title="Div2 Title Content">Div 2 Container</div>
+    </div>
+
+    <!-- <p><button onclick="process();">Click</button></p> -->
+    <p><button id="btnClick">Click</button></p>
+
+    <script>
+
+        document.querySelector("#btnClick").addEventListener("click", () => {
+            let body = document.querySelector("#body");
+            let div1 = document.querySelector("#div1");
+            let h4 = document.querySelector("#h4");
+            let p1 = document.querySelector("#p1");
+            let div2 = document.querySelector("#div2");
+
+            // h4.setAttribute("class", "colorRed");
+            // h4.setAttribute("title", "This is the h4 tag title added from JavaScript");
+
+            // p1.setAttribute("style", "background-color: red; color: white;");
+
+            // div2.setAttribute("data-custom", "1000");
+
+            // h4.style.color = "red";
+            
+            // p1.style.backgroundColor = "red";
+
+            // let temp = div2.getAttribute("title");
+            // console.log(temp);
+
+            // console.log(p1.getAttribute("data-interval"));
+
+            // div2.removeAttribute("title");
+
+            let h3 = document.createElement("h3");
+            h3.innerHTML = "This is the new H3 container";
+            h3.setAttribute("class", "colorRed");
+
+            div1.prepend(h3);
+
+            let button = document.createElement("button");
+            button.innerHTML = "New Button";
+            button.style.color = "red";
+            button.style.backgroundColor = "white";
+            button.addEventListener("click", () => {
+                console.log("New Button Clicked....");
+            });
+
+            div1.append(button);
+
+            // let img = document.createElement("img");
+            // img.src = "images/background.jpeg";
+
+            // div1.insertBefore(img, p1);
+
+            p1.remove();
+        });
+    </script>
+    
+</body>
+</html>

@@ -1535,3 +1535,46 @@ Objects
     Math
     Array
     Object
+
+
+NOTES: 26-11-2023
+
+API
+    - Application Programming Interface
+        - Normal API
+            get
+                - querystring
+                    ?name=value&name2=value2
+            post
+                - body (form or request)
+                    {
+                        name: value,
+                        name2: value2
+                    }
+        - RESTful Apis (Stateless API)
+            - accept as request and send as response
+            - CRUD
+                Create
+                Read
+                Update
+                Delete
+            get
+                - read data
+            post
+                - pushed (add or creating)
+            put
+                - update data
+            delete
+                - delete data
+            - sending data to the server (as request)
+                - querystring
+                - form or request post (body)
+                    URL Encoding
+                    JSON
+                - query parameters
+
+        - Soap APIs
+            - almost same as RESTful API
+            - difference here is:
+                sending data:
+                    XML data

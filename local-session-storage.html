@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+    <div id="results"></div>
+
+    <button id="btnSet">Set Storage</button>
+    <button id="btnGet">Get Storage</button>
+    <button id="btnDelete">Delete Storage</button>
+
+
+    <button>Add</button>
+    <button>Edit</button>
+    <button>Delete</button>
+    <button>List / Read</button>
+
+    <script>
+        let category = [
+            {
+                id: 1,
+                name: "Aptitude",
+                icon: "images/attitude.png",
+            },
+            {
+                id: 2,
+                name: "English",
+                icon: "images/english.png",
+            }
+        ];
+
+        let userData = localStorage.getItem("userObj");
+        userData = JSON.parse(userData);
+
+        let usersendthisdata = {
+            id: 1,
+            name: "Dinesh",
+            dob: "01/01/2023"
+        }
+        userData.push(usersendthisdata);
+
+        localStorage.setItem("userObj", JSON.stringify(userData));
+    
+        document.querySelector("#btnSet").addEventListener("click", () => {
+            // sessionStorage.setItem("name", "Dinesh");
+            let namesList = ["Dinesh", "Charan", "Shivani", "Sumathi"];
+            let usersObj = {
+                id: 1,
+                name: "Dinesh"
+            }
+            localStorage.setItem("name", JSON.stringify(namesList));
+            localStorage.setItem("userObj", JSON.stringify(usersObj));
+        });
+
+        document.querySelector("#btnGet").addEventListener("click", () => {
+            // let data = sessionStorage.getItem("name");
+            let nameData = localStorage.getItem("name");
+            nameData = JSON.parse(nameData);
+
+            let userData = localStorage.getItem("userObj");
+            userData = JSON.parse(userData);
+            // document.querySelector("#results").innerHTML = nameData[2];
+            document.querySelector("#results").innerHTML = userData.name;
+        });
+
+        document.querySelector("#btnDelete").addEventListener("click", () => {
+            // sessionStorage.removeItem("name");
+            localStorage.removeItem("name");
+        });
+    </script>
+    
+</body>
+</html>

@@ -14,81 +14,91 @@
         <input type="button" value="Click" onclick="processForm();">
     </form>
 
+    <p><input type="text" id="dataUsername"></p>
+    <p><input type="text" id="dataPassword"></p>
+
     <script>
         function processForm() {
             // console.log("Button is clicked");
 
-            // Old Methods - 2 Ways
-                // document.forms[<index>].<form control name attribute value>.value
-                let username1 = document.forms[0].txtUsername.value;
-                let password1 = document.forms[0].paPassword.value;
-                console.log("forms collections...");
-                console.log(username1);
-                console.log(password1);
+            let username = document.getElementById("txtUsername").value;
+            let password = document.getElementById("paPassword").value;
+            console.log(username, password);
 
-                // document.<name of the form>.<form control name attribute value>.value
-                let username2 = document.frmLogin.txtUsername.value;
-                let password2 = document.frmLogin.paPassword.value;
-                console.log("form name...");
-                console.log(username2);
-                console.log(password2);
+            document.getElementById("dataUsername").value = username;
+            document.getElementById("dataPassword").value = password;
 
-            // Traditional Methods - 4 Ways
-                // document.getElementById("<id attribute value>").value
-                let username3 = document.getElementById("txtUsername").value;
-                let password3 = document.getElementById("paPassword").value;
-                console.log("getElementById...");
-                console.log(username3);
-                console.log(password3);
+            // // Old Methods - 2 Ways
+            //     // document.forms[<index>].<form control name attribute value>.value
+            //     let username1 = document.forms[0].txtUsername.value;
+            //     let password1 = document.forms[0].paPassword.value;
+            //     console.log("forms collections...");
+            //     console.log(username1);
+            //     console.log(password1);
 
-                // document.getElementsByName("<name attribute value>")[<index>].value
-                let username4 = document.getElementsByName("txtUsername")[0].value;
-                // let username41 = document.getElementsByName("txtUsername")[1].value;
-                let password4 = document.getElementsByName("paPassword")[0].value;
-                console.log("getElementsByName...");
-                console.log(username4);
-                // console.log(username41);
-                console.log(password4);
+            //     // document.<name of the form>.<form control name attribute value>.value
+            //     let username2 = document.frmLogin.txtUsername.value;
+            //     let password2 = document.frmLogin.paPassword.value;
+            //     console.log("form name...");
+            //     console.log(username2);
+            //     console.log(password2);
 
-                // document.getElementsByTagName("<name of the tag>")[<index>].value
-                let username5 = document.getElementsByTagName("input")[0].value;
-                let password5 = document.getElementsByTagName("input")[1].value;
-                console.log("getElementsByTagName...");
-                console.log(username5);
-                console.log(password5);
+            // // Traditional Methods - 4 Ways
+            //     // document.getElementById("<id attribute value>").value
+            //     let username3 = document.getElementById("txtUsername").value;
+            //     let password3 = document.getElementById("paPassword").value;
+            //     console.log("getElementById...");
+            //     console.log(username3);
+            //     console.log(password3);
 
-                // document.getElementsByClassName("<class attribute value>")[<index>].value
-                let username6 = document.getElementsByClassName("clsInput")[0].value;
-                let password6 = document.getElementsByClassName("clsInput")[1].value;
-                console.log("getElementsByClassName...");
-                console.log(username6);
-                console.log(password6);
+            //     // document.getElementsByName("<name attribute value>")[<index>].value
+            //     let username4 = document.getElementsByName("txtUsername")[0].value;
+            //     // let username41 = document.getElementsByName("txtUsername")[1].value;
+            //     let password4 = document.getElementsByName("paPassword")[0].value;
+            //     console.log("getElementsByName...");
+            //     console.log(username4);
+            //     // console.log(username41);
+            //     console.log(password4);
 
-            // Modern / Latest Methods - 2 ways
-                // document.querySelector("<selector definition>").value
-                let username7 = document.querySelector("#txtUsername").value;
-                let password7 = document.querySelector("#paPassword").value;
-                console.log("querySelector... ID...");
-                console.log(username7);
-                console.log(password7);
+            //     // document.getElementsByTagName("<name of the tag>")[<index>].value
+            //     let username5 = document.getElementsByTagName("input")[0].value;
+            //     let password5 = document.getElementsByTagName("input")[1].value;
+            //     console.log("getElementsByTagName...");
+            //     console.log(username5);
+            //     console.log(password5);
 
-                let username71 = document.querySelector(".clsInput").value;
-                let password71 = document.querySelector(".clsInput").value;
-                console.log("querySelector... CLASS...");
-                console.log(username71);
-                console.log(password71);
+            //     // document.getElementsByClassName("<class attribute value>")[<index>].value
+            //     let username6 = document.getElementsByClassName("clsInput")[0].value;
+            //     let password6 = document.getElementsByClassName("clsInput")[1].value;
+            //     console.log("getElementsByClassName...");
+            //     console.log(username6);
+            //     console.log(password6);
 
-                let username8 = document.querySelectorAll(".clsInput")[0].value;
-                let password8 = document.querySelectorAll(".clsInput")[1].value;
-                console.log("querySelectorAll... CLASS...");
-                console.log(username8);
-                console.log(password8);
+            // // Modern / Latest Methods - 2 ways
+            //     // document.querySelector("<selector definition>").value
+            //     let username7 = document.querySelector("#txtUsername").value;
+            //     let password7 = document.querySelector("#paPassword").value;
+            //     console.log("querySelector... ID...");
+            //     console.log(username7);
+            //     console.log(password7);
 
-                let username81 = document.querySelectorAll("#txtUsername")[0].value;
-                let password81 = document.querySelectorAll("#paPassword")[0].value;
-                console.log("querySelectorAll... ID...");
-                console.log(username81);
-                console.log(password81);
+            //     let username71 = document.querySelector(".clsInput").value;
+            //     let password71 = document.querySelector(".clsInput").value;
+            //     console.log("querySelector... CLASS...");
+            //     console.log(username71);
+            //     console.log(password71);
+
+            //     let username8 = document.querySelectorAll(".clsInput")[0].value;
+            //     let password8 = document.querySelectorAll(".clsInput")[1].value;
+            //     console.log("querySelectorAll... CLASS...");
+            //     console.log(username8);
+            //     console.log(password8);
+
+            //     let username81 = document.querySelectorAll("#txtUsername")[0].value;
+            //     let password81 = document.querySelectorAll("#paPassword")[0].value;
+            //     console.log("querySelectorAll... ID...");
+            //     console.log(username81);
+            //     console.log(password81);
         }
     </script>
     
