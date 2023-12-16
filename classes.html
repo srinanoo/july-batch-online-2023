@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+    <script>
+        // regular function
+        // function testFunc(x, y) {
+        //     return x+y;
+        // }
+        // console.log(testFunc(10, 20)); // function invoking
+
+        // let testFunc2 = function() {
+        // }
+
+        // let testFunc3 = () => {
+        // }
+
+        // this obj variable is an instance of the "Object" type
+        // let obj = {
+        //     id: 1,
+        //     x: 10,
+        //     y: 20,
+        //     getDetails: function() {
+        //         return "this is an object method which can return some data";
+        //     }
+        // }
+        // console.log(obj.id);
+        // console.log(obj.getDetails());
+
+        // function as constructor
+        // function is "stateless"
+        // function TestFunc4(x, y) {
+        //     let a = 10;
+        
+        //     this.num1 = x; // member variable 1
+        //     this.num2 = y; // member variable 2
+
+        //     // getters
+        //     this.getDetails = function() {
+        //         return this.num1 + this.num2;
+        //     }
+
+        //     // setters
+        //     this.setDetails = function(x1, y1) {
+        //         this.num1 = x1;
+        //         this.num2 = y1;
+        //     }
+        // }
+        // let funcObj = new TestFunc4(1, 2);
+        // console.log(funcObj.num1);
+        // console.log(funcObj.num2);
+        // console.log(funcObj.getDetails());
+
+        // funcObj.setDetails(10, 20); // changing the data... but we are not changing the reference of the variable...
+        // console.log(funcObj.num1);
+        // console.log(funcObj.num2);
+        // console.log(funcObj.getDetails());
+
+        // let funcObj1 = new TestFunc4(10, 20);
+        // funcObj1.num1;
+
+        /////
+        // class is stateful
+        // class TestClass {
+        //     // method
+        //     // only once its called
+        //     // is called automatically | 
+        //     // the first method to be called/executed when instance of the class is created
+        //     // initializes all the variables at loading / called / instance is created time
+        //     constructor(x, y) { 
+        //         this.num1 = x;
+        //         this.num2 = y;
+        //     }
+
+        //     getDetails() {
+        //         return this.num1 + this.num2;
+        //     }
+
+        //     setDetails(x1, y1) {
+        //         this.num1 = x1;
+        //         this.num2 = y1;
+        //     }
+        // }
+        // let clsObj = new TestClass(111, 222); // creating an instance | instantiation of the class
+        // console.log(clsObj.num1, clsObj.num2);
+        // console.log(clsObj.getDetails());
+
+        // clsObj.setDetails(123, 456);
+        // console.log(clsObj.getDetails());
+
+        // let clsObj1 = new TestClass();
+
+
+        // class Math {
+        //     constructor() {
+
+        //     }
+
+        //     round() {
+        //         return "round method";
+        //     }
+
+        //     ceil() {
+        //         return "ceil method";
+        //     }
+        // }
+        // let maths = new Math();
+        // maths.round();
+
+        // Math.round();
+
+
+        // Inhertiance
+        class ParentClass {
+            constructor(pname, page) {
+                this.parentName = pname;
+                this.parentAge = page;
+            }
+
+            getParentDetails() {
+                return "Parent Name is: " + this.parentName + ", Parent Age is: " + this.parentAge;
+            }
+
+            setParentDetails(newName, newAge) {
+                this.parentAge = newAge;
+                this.parentName = newName;
+            }
+        }
+        // let parentObj = new ParentClass("Dinesh", 20);
+        // console.log(parentObj.getParentDetails());
+
+        class ChildClass extends ParentClass {
+            constructor(pname, page, cname, cage) {
+                super(pname, page); // will call the parent's constructor
+                this.childName = cname;
+                this.childAge = cage;
+            }
+
+            getChildDetails() {
+                return "Child Name is: " + this.childName + ", Child Age is: " + this.childAge;
+            }
+        }
+        let childObj = new ChildClass("Dinesh", 30, "Shivani", 10);
+        console.log(childObj.getParentDetails());
+        console.log(childObj.getChildDetails());
+    </script>
+    
+</body>
+</html>

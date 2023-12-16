@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            box-sizing: border-box;
+        }
+        #studentForm{
+           display:grid ;
+           grid-template-columns: 100%;
+           justify-content: center;
+           margin: 30px;
+        }
+        #studentForm > input,#studentForm > label,#studentForm > #btnSubmit{
+         margin: auto;
+        }
+        label{
+            font-size: large;
+           
+        }
+        #display,#heading{
+            display:flex;
+            flex-wrap: wrap;
+            width:100%;
+        }
+        #display > div,#heading> div{
+            width:20%;
+            padding: 10px;
+            border:solid 1px white;
+        }
+        #display > div{
+            background-color: rgb(35, 35, 7);
+            color:white;
+        }
+        #heading> div{
+            text-align: center;
+            background-color:rgb(61, 89, 20);
+            color:white;
+        }
+        input{
+            padding: 5px;
+            width: 40%;
+        }
+        #btnSubmit{
+        border: 0;
+        background-color: red;
+        color:white;
+        padding: 10px;
+        border-radius: 5px;
+        width: 30%;
+        }
+        #btnList{
+            border: 0;
+            background-color: rgb(10, 72, 10);
+            color:white;
+        padding: 10px;
+        border-radius: 5px;
+        width: 20%;
+        }
+        ::placeholder{
+            font-style: italic;
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        }
+        input:focus{
+                padding: 10px;
+                border-radius: 5px;
+            }
+         .del{
+                border-radius: 5px;
+                padding: 10px;
+                border: 0;
+                width: 20%;
+            }
+    </style>
+</head>
+<body>
+   
+    <div id="studentForm">
+           <div style="text-align: center;font-size: x-large;color: blue;">Student Form</div><br><br>
+           <label>Student Name:</label><br> 
+            <input type="text" id="student" class="input" placeholder=" Enter Student Name..."><br>
+           <label> Father's Name:</label> <br>
+            <input type="text" id="father" class="input" placeholder=" Enter Father's Name..."><br>
+           <label>Mother's Name:</label>  <br>
+            <input type="text" id="mother" class="input" placeholder=" Enter Mother's Name..."><br>
+           <label>Email Id:</label>  <br>
+            <input type="email" id="email" class="input" placeholder=" Enter Email Id here..."><br>
+           <label for="">Date of Birth:</label> <br>
+            <input type="date" id="dob" class="input"><br>
+            <button id="btnSubmit">Submit</button>
+            <br><br>
+        </div>
+            <!-- <button id="btnDelete">Delete</button> -->
+            <button id="btnList">List All the Student details</button><br><br>
+            <div id="delete"></div><br>
+            <div id="heading">
+                <div>Student Name</div>
+                <div>Father's Name</div>
+                <div>Mother's Name</div>
+                <div>Email Id</div>
+                <div>Date of Birth</div>
+                <!-- <div>Actions</div> -->
+            </div>
+            <!-- display output -->
+            <div id="display"></div>
+    <br><br><br>
+    <script>
+         let display=document.querySelector("#display");
+         let btnList=document.querySelector("#btnList");
+         let btnDelete=document.createElement("button");
+         let divDelete=document.querySelector("#delete");
+            btnDelete.innerHTML="Delete";
+            btnDelete.style.color="white";
+            btnDelete.style.backgroundColor="red";
+            btnDelete.className="del";
+            divDelete.append(btnDelete);
+        document.querySelector("#btnSubmit").addEventListener("click",()=>{
+          ///console.log("button is clicked");
+          let arrayOfStudents=localStorage.getItem("students");
+         /// console.log(arrayOfStudents);//display null
+          if (arrayOfStudents!==null){
+            arrayOfStudents=JSON.parse(arrayOfStudents);
+          }else{
+            arrayOfStudents=[];
+          }
+          console.log(arrayOfStudents);
+          let form=document.querySelectorAll(".input");
+          //console.log(form.length);
+            let objNames={};
+            //let arrayOfStudents=[];
+        form.forEach((v,i)=>{
+                //  console.log(v['id']);
+                // console.log(i=v['id']);
+                //console.log(v.value,i);
+                i=v['id'];
+                objNames[i]=v.value;
+            });
+        console.log(arrayOfStudents);
+        console.log(objNames);
+        arrayOfStudents.push(objNames);
+        localStorage.setItem("students",JSON.stringify( arrayOfStudents));
+     });
+   btnList.addEventListener("click",()=>{
+           let arrayOfStudents=localStorage.getItem("students");
+           console.log(arrayOfStudents);
+                if(arrayOfStudents!==null){
+                    arrayOfStudents=JSON.parse(arrayOfStudents);
+                }else{
+                    display.innerHTML="No Data Found!...";
+                }
+        let displayOutput="";
+        arrayOfStudents.forEach((v,i)=>{
+        // console.log(arrayOfStudents[i],"-->array");
+        // console.log(v.student);
+                for(let temp in arrayOfStudents[i]){
+                // console.log(temp,"index");
+                console.log("value",arrayOfStudents[i][temp]);
+                    displayOutput+=`<div>`+ arrayOfStudents[i][temp]+`</div>`;
+                }
+                displayOutput += "<button>Delete</button>";
+            });
+            display.innerHTML=displayOutput;
+    ////delete button
+        //    let btnDelete=document.createElement("button");
+        //    btnDelete.innerHTML="Delete";
+        //    btnDelete.style.color="white";
+        //    btnDelete.style.backgroundColor="red";
+        //    btnDelete.className="del";
+        //    let display=document.querySelector("#display");
+        // display.appendChild(btnDelete);
+         btnDelete.addEventListener("click",()=>{
+                arrayOfStudents.splice(1,1);
+                console.log(arrayOfStudents);
+                localStorage.setItem("students",JSON.stringify(arrayOfStudents));
+            });
+
+
+
+
+
+ });
+       
+      
+
+
+
+
+
+
+      
+    </script>
+</body>
+</html>

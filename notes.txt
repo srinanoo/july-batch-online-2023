@@ -1578,3 +1578,86 @@ API
             - difference here is:
                 sending data:
                     XML data
+
+
+NOTES: 03-12-2023
+
+ES6
+
+ECMA Script
+    ECMA - European Computer Manufacturers Association
+        - Governing Body
+            - to decide what features to be include / removed / updated in the software
+                - JavaScript
+
+
+NOTES: 09-12-2023
+
+HTML
+    - Tags or Elements or Container
+        - Properties (Attribute and its Behaviour)
+        - Feature / Functionality (means of tag and its feature)
+
+        <html></html>
+        <header></header>
+        <body></body>
+        <div></div>
+        <br />
+        <input>
+        <hr>
+        <img>
+        <a></a>
+        <span></span>
+
+XML
+    - Nodes (which is nothing but its a tag, but a special tag)
+        - no defined feature or functionality
+
+        <html></html>
+        <header></header>
+        <body></body>
+        <div></div>
+        <br />
+        <input />
+        <hr />
+        <img />
+
+        <Dinesh id="" age="30">This is my name!</Dinesh>
+
+
+In HTML in XML format
+    <div id="div1">
+    </div>
+
+In JS
+    let name = "Dinesh";
+
+    document.getElementById("div1").innerHTML = name;
+
+    let p = document.createElement("p");
+    p.innerHTML = "Something...";
+    document.getElementById("div1").append(p);
+
+
+JSX from HTML
+    - Rules
+        - are set in a package called "ESLint"
+    
+    - self closing tag should be properly closed
+        <hr> => <hr />
+        <img> => <img />
+    - if <img /> is used, then "alt" attribute is complusory
+    - a href is used, then you can't have the "href" attribute as dummy value. Attribute should have Meaningful value!
+        <a href="#">About</a>
+        <a href="">About</a>
+    - if "class" attribute is used, then change it to "className" attribute
+        - the compiler will take care of converting the "className" to "class" attribute in the browser
+    - if "styles" attribute is used, then you might have to change it to JavaScript Object way
+    - All tags should have matching opening and closing tag.
+
+Starter Template
+    - CRA
+    - Vite
+    - Next.js
+    - Svelte
+    - Gatsby
