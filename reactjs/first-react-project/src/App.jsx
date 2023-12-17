@@ -6,6 +6,9 @@ import './App.css'
 // import { FuncComponent1 } from './components/FuncComp'
 import FuncComponent, { FuncComponent1, FuncComponent2 } from './components/FuncComp' 
 import PropsComponent, { ExamComponent, MenuComponent } from './components/PropsComp'
+import { MarksComponent } from './components/StatesComp'
+import { CountComponent } from './components/countComp'
+import APIComponent from './components/APIComp'
 // import './styles.css'
 // import colors from './colors.module.css'
 
@@ -102,80 +105,189 @@ import PropsComponent, { ExamComponent, MenuComponent } from './components/Props
 //     )
 // }
 
-function App() {
-    let userData = {
-        "name": "Dinesh",
-        "age": 33,
-        "active": true,
-    };
-    let menuData = ["Home", "About", "Contact"];
+// function App() {
+//     let userData = {
+//         "name": "Dinesh",
+//         "age": 33,
+//         "active": true,
+//     };
+//     let menuData = ["Home", "About", "Contact"];
 
+//     let subject = "ReactJs";
+//     let mark = 100;
+
+//     const handleUser = () => {
+//         console.log("User button is clicked");
+//         console.log("Before Change: ", userData);
+//         userData = {
+//             "name": "New Name",
+//             "age": 22,
+//             "active": false,
+//         }
+//         console.log("After Change: ", userData);
+//     }
+
+//     const [count, setCount] = useState(0);
+//     let count1 = 0; // initialising
+//     const handleCount = () => {
+//         console.log("Count button is clicked");
+//         setCount(1); // fallback / callback / setter function
+//         // count = 1;
+//         count1 = 1; // reassigning
+//         console.log(count1);
+//     }
+
+//     const [studentName, setStudentName] = useState("Dinesh");
+//     const handleName = () => {
+//         console.log("Name change button is clicked");
+//         setStudentName("New Student Name");
+//     }
+
+//     const [logged, setLogged] = useState(false);
+//     const handleLogged = () => {
+//         console.log("Logged button is clicked");
+//         setLogged(true);
+//     }
+//     const handleLogin = () => {
+//         setLogged(true);
+//     }
+//     const handleLogout = () => {
+//         setLogged(false);
+//     }
+
+//     const [nameList, setNameList] = useState(["a", "b", "c", "d", "e", "f"]);
+//     const handleNameList = () => {
+//         console.log("Name list button is clicked");
+//         setNameList(["aaaa", "bbbb", "cccc", "dddd", "eeee"]);
+//     }
+
+//     const [userObj, setUserObj] = useState({
+//         "id": 1,
+//         "name": "Dinesh",
+//         "age": 30,
+//         "active": true,
+//     });
+//     const handleUserObj = () => {
+//         console.log("User data object button is clicked");
+//         // setUserObj({
+//         //     "id": 1,
+//         //     "name": "Dinesh",
+//         //     "age": 30,
+//         //     "active": false,
+//         // });
+//         // setUserObj((prevValues) => ({...prevValues, active: false}));
+
+//         setUserObj((prev) => {
+//             return {...prev, active: false};
+//         });
+//     }
+
+//     console.log("Parent Component");
+//     return (
+//         <>
+//             <h2>Props Component</h2>
+
+//             <p>User Object Data</p>
+//             <p>ID: {userObj.id}</p>
+//             <p>Name: {userObj.name}</p>
+//             <p>Age: {userObj.age}</p>
+//             <p>Status: {userObj.active.toString()}</p>
+//             <p><button onClick={handleUserObj}>Change User Data</button></p>
+
+//             <hr />
+
+//             <p>Names List</p>
+//             <p>
+//                 {nameList.join(" | ")}
+//             </p>
+//             <ol>
+//             {
+//                 nameList.map((v, i) => {
+//                     return (
+//                         <li key={i}>{v}</li>
+//                     )
+//                 })
+//             }
+//             </ol>
+//             <p><button onClick={handleNameList}>Change Name List</button></p>
+
+//             <hr />
+
+//             <p>Logged: {logged.toString()}</p>
+//             {/* <p><button onClick={handleLogged}>Change Logged</button></p> */}
+//             {
+//                 logged
+//                     ?
+//                     <p><button onClick={handleLogout}>Logout</button></p>
+//                     :
+//                     <p><button onClick={handleLogin}>Login</button></p>
+//             }
+
+//             <hr />
+
+//             <p>Count: {count}</p>
+//             <p>Count1: {count1}</p>
+//             <p><button onClick={handleCount}>Change Count</button></p>
+
+//             <hr />
+
+//             <p>Name: {studentName}</p>
+//             <p><button onClick={handleName}>Change Name</button></p>
+
+//             <hr />
+
+//             <h3>User Data</h3>
+//             <p>My Name is: {userData.name}</p>
+//             <p>My Age is: {userData.age}</p>
+//             <p>My Status is: {userData.active.toString()}</p>
+//             <p><button onClick={handleUser}>Change User</button></p>
+
+//             <hr />
+
+//             <h3>Menu</h3>
+//             <nav>
+//                 <ul>
+//                     {
+//                         menuData.map((v, i) => {
+//                             return (
+//                                 <li key={i}>{v}</li>
+//                             )
+//                         })
+//                     }
+//                 </ul>
+//             </nav>
+//             <p><button>Change Menu</button></p>
+
+//             <hr />
+
+//             <h2>Marks</h2>
+//             <p>Subject: {subject}</p>
+//             <p>Mark: {mark}</p>
+//             <p><button>Change Mark</button></p>
+
+//             <hr />
+
+//             {/* <PropsComponent users={userData} />
+//             <MenuComponent menu={menuData} />
+//             <ExamComponent mark={100} subject="ReactJs" /> */}
+//         </>
+//     )
+// }
+
+
+function App() {
     let subject = "ReactJs";
     let mark = 100;
-
-    const handleUser = () => {
-        console.log("User button is clicked");
-        console.log("Before Change: ", userData);
-        userData = {
-            "name": "New Name",
-            "age": 22,
-            "active": false,
-        }
-        console.log("After Change: ", userData);
-    }
-
-    const [count, setCount] = useState(0);
-    let count1 = 0; // initialising
-    const handleCount = () => {
-        console.log("Count button is clicked");
-        setCount(1); // fallback / callback / setter function
-        // count = 1;
-        count1 = 1; // reassigning
-    }
 
     console.log("Parent Component");
     return (
         <>
-            <h2>Props Component</h2>
+            <h1>Parent Component</h1>
 
-            <p>Count: {count}</p>
-            <p>Count1: {count1}</p>
-            <p><button onClick={handleCount}>Change Count</button></p>
+            {/* <MarksComponent subject={subject} mark={mark} /> */}
+            {/* <CountComponent /> */}
 
-            <h3>User Data</h3>
-            <p>My Name is: {userData.name}</p>
-            <p>My Age is: {userData.age}</p>
-            <p>My Status is: {userData.active.toString()}</p>
-            <p><button onClick={handleUser}>Change User</button></p>
-
-            <hr />
-
-            <h3>Menu</h3>
-            <nav>
-                <ul>
-                    {
-                        menuData.map((v, i) => {
-                            return (
-                                <li key={i}>{v}</li>
-                            )
-                        })
-                    }
-                </ul>
-            </nav>
-            <p><button>Change Menu</button></p>
-
-            <hr />
-
-            <h2>Marks</h2>
-            <p>Subject: {subject}</p>
-            <p>Mark: {mark}</p>
-            <p><button>Change Mark</button></p>
-
-            <hr />
-
-            {/* <PropsComponent users={userData} />
-            <MenuComponent menu={menuData} />
-            <ExamComponent mark={100} subject="ReactJs" /> */}
+            <APIComponent />
         </>
     )
 }
