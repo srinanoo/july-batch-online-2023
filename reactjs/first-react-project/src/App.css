@@ -66,3 +66,18 @@ nav ul li {
 nav ul li:hover {
   background-color: red;
 }
+
+.flex {
+  display: flex;
+  flex-wrap: wrap;
+}
+.flex > div {
+  width: 30%;
+  margin: 5px;
+  background-color: yellow;
+  padding: 5px;
+}
+
+.error {
+  color: red;
+}

@@ -9,6 +9,9 @@ import PropsComponent, { ExamComponent, MenuComponent } from './components/Props
 import { MarksComponent } from './components/StatesComp'
 import { CountComponent } from './components/countComp'
 import APIComponent from './components/APIComp'
+import FormComponent from './components/FormComp'
+import EffectComponent from './components/EffectComp'
+import FormAPIComponent from './components/FormAPIComp'
 // import './styles.css'
 // import colors from './colors.module.css'
 
@@ -279,17 +282,35 @@ function App() {
     let subject = "ReactJs";
     let mark = 100;
 
+    // install a project dependency library
+        // npm i <package/library name> => new way/syntax
+        // npm install <package/library name> => old way/syntax
+
+    // install a local / developer dependency library
+        // npm i -D <package/library name> => new way/syntax
+        // npm i --save-dev <package/library name> => old way/syntax
+    
+    // install a global (for all users in your laptop/system) dependency library
+        // npm i -g <package/library name> => new way/syntax
+        // npm i --global <package/library name> => old way/syntax
+
     console.log("Parent Component");
     return (
         <>
-            <h1>Parent Component</h1>
+            {/* <h1>Parent Component</h1> */}
 
             {/* <MarksComponent subject={subject} mark={mark} /> */}
             {/* <CountComponent /> */}
 
-            <APIComponent />
+            {/* <APIComponent /> */}
+
+            {/* <FormComponent /> */}
+
+            {/* <EffectComponent /> */}
+
+            <FormAPIComponent />
         </>
     )
 }
 
-export default App
+export default App;
